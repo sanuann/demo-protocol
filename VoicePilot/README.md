@@ -12,11 +12,8 @@
       <br>
 <section>
 <div class="container-fluid">
-  <h2>Welcome to the Demonstration Protocol</h2>
-  <p>This is a Demonstration Protocol.</p>
-  <p>In this protocol, we will demonstrate the different features of ReproSchema.
-  This includes both voice collection instruments alongside more standardized 
-  questionnaires.
+  <h2>Welcome to our Longitudinal Study on Stuttering</h2>
+  <p>Thank you very much for participating in our study. We are studying how changing the way one hears one’s own voice affects speech fluency in people who stutter.
   </p>
 </div>
 </section>
@@ -27,9 +24,8 @@
     <img style="margin-bottom: -6px" src="https://raw.githubusercontent.com/ReproNim/demo-protocol/master/VoicePilot/about_the_study.svg" alt="about"/>
   </div>
   <div class="text" style="padding-top: 1rem">
-    <h3>Additional Information about the protocol</h3>
-    <p>By editing the README.md file you can control different segments of this
-    front page, including sectioning and adding images.
+    <h3>Background Information</h3>
+    <p>Stuttering is common, and affects ~1% of the population worldwide. This condition is characterized by involuntary repetitions, blockages, and prolongations of sound during speaking. From prior studies, we know that fluency can be improved by playing back one’s own voice fractions of a second after it is spoken -- this is known as “delayed auditory feedback”. Altering the pitch of one’s own voice - making it sound lower or higher - produces a similar, fluency-evoking effect. There are commercially-available technologies that take advantage of these observations by continuously playing a recording into the ear. These systems, however, are expensive, often do not work long term, and cannot be easily personalized. We are interested in developping an approach that is more user-friendly and effective in the long term.
     </p>
   </div>
 </div>
@@ -41,9 +37,8 @@
     <img style="padding-top: 1.5rem" src="https://raw.githubusercontent.com/ReproNim/demo-protocol/master/VoicePilot/tell_your_story.svg" alt="tell-story"/>
   </div>
   <div class="text">
-    <h3>More information</h3>
-    <p>And more information. It is completely up to you how many sections you 
-    want to add and what information you want to provide to your participants.
+    <h3>About our Study</h3>
+    <p>Throughout this study you will be asked to use an iPhone app every day for 30 minutes while talking. No voice data will be collected during those daily sessions. We only ask you to log when you are using the app and on which setting. Once a week, you will have a 30min testing session using both the app and a platform on your computer browser. During those sessions, your voice will be recorded for later analysis of your fluency.
     </p>
   </div>
 </div>
@@ -55,9 +50,9 @@
     <img style="transform: scale(0.7); padding-bottom: 1rem" src="https://raw.githubusercontent.com/ReproNim/demo-protocol/master/VoicePilot/create_your_story.svg" alt="create-story"/>
   </div>
   <div class="text">
-    <h3>Details about this protocol</h3>
+    <h3>Ready to Get Started ?</h3>
     <p>
-    To go through the protocol hit the Join button. It will take you through a 
+    To go through the session hit the Join button. It will take you through a 
     consent process and then make sure you have understood the consent. Once you 
     are deemed eligible the rest of the questionnaires will appear.
     </p>
