@@ -3,7 +3,7 @@
         <div style="
           height: 30vw;
           min-height: 15rem;
-          background-image: url(./VoicePilot/about_the_study.svg);
+          background-image: url(about_the_study.svg);
           background-position: center;
           background-size: contain;
           background-repeat: no-repeat">
@@ -21,7 +21,7 @@
 <section>
 <div class="image container">
   <div class="image">
-    <img style="margin-bottom: -6px" src="./VoicePilot/about_the_study.svg" alt="about"/>
+    <img style="margin-bottom: -6px" src="about_the_study.svg" alt="about"/>
   </div>
   <div class="text" style="padding-top: 1rem">
     <h3>Background Information</h3>
@@ -34,7 +34,7 @@
 <section>
 <div class="image container">
   <div class="image">
-    <img style="padding-top: 1.5rem" src="./VoicePilot/tell_your_story.svg" alt="tell-story"/>
+    <img style="padding-top: 1.5rem" src="tell_your_story.svg" alt="tell-story"/>
   </div>
   <div class="text">
     <h3>About our Study</h3>
@@ -47,7 +47,7 @@
 <section>
 <div class="image container">
   <div class="image">
-    <img style="transform: scale(0.7); padding-bottom: 1rem" src="./VoicePilot/create_your_story.svg" alt="create-story"/>
+    <img style="transform: scale(0.7); padding-bottom: 1rem" src="create_your_story.svg" alt="create-story"/>
   </div>
   <div class="text">
     <h3>Ready to Get Started ?</h3>
