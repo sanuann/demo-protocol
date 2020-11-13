@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "quiz_score",
+    "prefLabel": "Score of Consent Quiz",
+    "altLabel": "quiz_score",
+    "description": "schema for consent quiz score",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "ui": {
+        "inputType": "xsd:int",
+        "readonlyValue": true
+    },
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 5
+    }
+}

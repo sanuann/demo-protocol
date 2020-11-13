@@ -10,20 +10,20 @@
     "ui": {
         "addProperties": [
             {
-                "isAbout": "./activities/items/consent_overview",
+                "isAbout": "./items/consent_overview",
                 "variableName": "consent_overview",
                 "valueRequired": true,
                 "isVis": true
             },
             {
-                "isAbout": "./activities/items/sign",
+                "isAbout": "./items/sign",
                 "variableName": "sign",
                 "isVis": true
             },
         ],
         "order": [
-            "./activities/items/consent_overview",
-            "./activities/items/sign",
+            "./items/consent_overview",
+            "./items/sign",
         ],
         "shuffle": false
     }
