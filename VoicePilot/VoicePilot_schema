@@ -22,7 +22,7 @@
         "addProperties": [
             {"isAbout": "../activities/Screening/Screening_schema",
             "variableName": "Screening_schema",
-            "prefLabel": {"en": "Screening"}
+            "prefLabel": {"en": "Pre-Testing Questionnaire"}
             },
             {"isAbout": "rl:VoiceConsent/VoiceConsent_schema",
             "variableName": "VoiceConsent_schema",
@@ -32,33 +32,13 @@
             "variableName": "VoiceTask_schema",
             "prefLabel": {"en": "Voice"}
             },
-            {"isAbout": "rl:PROMISGlobalHealth/PROMISGlobalHealth_schema",
-            "variableName": "PROMISGlobalHealth_schema",
-            "prefLabel": {"en": "Health"}
-            },
             {"isAbout": "../activities/VoiceTask/VoiceTask_schema",
             "variableName": "VoiceTask_schema",
             "prefLabel": {"en": "Voice"}
             },
-            {"isAbout": "rl:GAD7/GAD7_schema",
-            "variableName": "GAD7_schema",
-            "prefLabel": {"en": "Anxiety"}
-            },
-            {"isAbout": "rl:CageAid/CageAid_schema",
-            "variableName": "CageAid_schema",
-            "prefLabel": {"en": "Substance use"}
-            },
-            {"isAbout": "rl:BADS/BADS_schema",
-            "variableName": "BADS_schema",
-            "prefLabel": {"en": "Behavior"}
-            },
             {"isAbout": "rl:MiscellaneousQuestions/MiscellaneousQuestions_schema",
             "variableName": "OtherQuestions_schema",
             "prefLabel": {"en": "Other Questions" }
-            },
-            {"isAbout": "rl:VoiceTask/VoiceTask_schema",
-            "variableName": "VoiceTask_schema",
-            "prefLabel": {"en": "Voice Tasks"}
             },
             {"isAbout": "rl:ThankYou/ThankYou_schema",
             "variableName": "ThankYou_schema",
@@ -69,10 +49,6 @@
             "../activities/Screening/Screening_schema",
             "rl:VoiceConsent/VoiceConsent_schema",
             "../activities/VoiceTask/VoiceTask_schema",
-            "rl:PROMISGlobalHealth/PROMISGlobalHealth_schema",
-            "rl:GAD7/GAD7_schema",
-            "rl:CageAid/CageAid_schema",
-            "rl:BADS/BADS_schema",
             "rl:MiscellaneousQuestions/MiscellaneousQuestions_schema",
             "rl:ThankYou/ThankYou_schema"
         ],
