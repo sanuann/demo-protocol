@@ -9,9 +9,21 @@
     "preamble": "Learn about the study, risks and benefits of joining by going through the consent.",
     "ui": {
         "addProperties": [
-
+            {
+                "isAbout": "../activities/VoiceConsent/items/consent_overview",
+                "variableName": "consent_overview",
+                "valueRequired": true,
+                "isVis": true
+            },
+            {
+                "isAbout": "../activities/VoiceConsent/items/sign",
+                "variableName": "sign",
+                "isVis": true
+            },
         ],
         "order": [
+            "../activities/VoiceConsent/items/consent_overview",
+            "../activities/VoiceConsent/items/sign",
         ],
         "shuffle": false
     }
