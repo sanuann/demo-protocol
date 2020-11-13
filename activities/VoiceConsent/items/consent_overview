@@ -1,0 +1,25 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "consent_overview",
+    "prefLabel": "Consent",
+    "description": "Consent Overview",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": "<div class=\"root\">\n    <div>\n      <h2>Research Study Information</h2>\n      <table>\n        <tr>\n          <th>Title:</th><td>Longitudinal Study of Stutter</td>\n        </tr>\n        <tr>\n          <th>Principal Investigator:</th><td>Rebecca Kleinberger, PhD</td>\n        </tr>\n        <tr>\n          <th>Contact address:</th><td>Massachusetts Institute of Technology E14-333B 75 Amherst Street Cambidge, MA, 02139</td>\n        </tr>\n        <tr>\n          <th>Contact Phone Number:</th><td>TBD</td>\n        </tr>\n        <tr>\n          <th>Email Address:</th><td>rebklein@mit.edu</td>\n        </tr>\n        <tr>\n        </tr>\n        <tr>\n          <th>Protocol Number:</th><td>TBD<br>WIRB\u00ae Protocol #20181960</td>\n        </tr>\n      </table>\n\n      <h3>Overview</h3>\n\n      <p>TBD</p>\n\n      <p>TBD</p>\n    </div>\n\n    <div class=\"what-is-involved\">\n      <h3>What Is Involved</h3> <div class=\"data-collection\">\n      <h3>Data Collection, Storage, and Privacy</h3><div class=\"trends\">\n      <h3>Data Use & Trends</h3><div class=\"sharing\">\n      <h3>Sharing For Future Research</h3><div class=\"risks\">\n      <h3>Potential Risks</h3> <div class=\"benefits\"> <div class=\"not-medical\">\n      <h3>Not Medical Care</h3> <div class=\"issues\"> <div class=\"leaving\">\n\f     <h3>Leaving The Study</h3> <div class=\"contact\"> </div>\n  </div>",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "valueType": "xsd:boolean",
+        "minValue": 1,
+        "maxValue": 1,
+        "multipleChoice": false,
+        "choices": [
+            {
+                "name": "I have read and understood the consent.",
+                "value": 1
+            }
+        ]
+    }
+}

@@ -24,7 +24,7 @@
             "variableName": "Screening_schema",
             "prefLabel": {"en": "Pre-Testing Questionnaire"}
             },
-            {"isAbout": "rl:VoiceConsent/VoiceConsent_schema",
+            {"isAbout": "../activities/VoiceConsent/VoiceConsent_schema",
             "variableName": "VoiceConsent_schema",
             "prefLabel": {"en": "Consent"}
             },
@@ -47,7 +47,7 @@
         ],
         "order": [
             "../activities/Screening/Screening_schema",
-            "rl:VoiceConsent/VoiceConsent_schema",
+            "../activities/VoiceConsent/VoiceConsent_schema",
             "../activities/VoiceTask/VoiceTask_schema",
             "rl:MiscellaneousQuestions/MiscellaneousQuestions_schema",
             "rl:ThankYou/ThankYou_schema"
