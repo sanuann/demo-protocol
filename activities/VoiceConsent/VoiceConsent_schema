@@ -1,5 +1,9 @@
 {
-    "@context":"https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/darius/activities/",
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+        {
+            "rl": "https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/darius/activities/"
+        }
+    ],
     "@type": "reproschema:Activity",
     "@id": "VoiceConsent_schema",
     "prefLabel": "Voice Consent",
