@@ -1,9 +1,5 @@
 {
-    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
-        {
-            "rl": "https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/darius/activities/"
-        }
-    ],
+    "@context":"https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Activity",
     "@id": "VoiceConsent_schema",
     "prefLabel": "Voice Consent",
@@ -13,15 +9,9 @@
     "preamble": "Learn about the study, risks and benefits of joining by going through the consent.",
     "ui": {
         "addProperties": [
-            {
-                "isAbout": "./items/consent_overview",
-                "variableName": "consent_overview",
-                "valueRequired": true,
-                "isVis": true
-            },
+
         ],
         "order": [
-            "./items/consent_overview",
         ],
         "shuffle": false
     }
