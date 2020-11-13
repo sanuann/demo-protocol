@@ -15,6 +15,11 @@
                 "valueRequired": true,
                 "isVis": true
             },
+            {
+                "isAbout": "items/sign",
+                "variableName": "sign",
+                "isVis": true
+            },
         ],
         "order": [
             "items/consent_overview",
