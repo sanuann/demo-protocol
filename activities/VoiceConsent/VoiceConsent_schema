@@ -10,15 +10,15 @@
     "ui": {
         "addProperties": [
             {
-                "isAbout": "./items/consent_overview",
+                "isAbout": "items/consent_overview",
                 "variableName": "consent_overview",
                 "valueRequired": true,
                 "isVis": true
             },
         ],
         "order": [
-            "./items/consent_overview",
-            "./items/sign",
+            "items/consent_overview",
+            "items/sign",
         ],
         "shuffle": false
     }
