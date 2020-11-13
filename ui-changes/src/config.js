@@ -1,8 +1,8 @@
 module.exports = {
   /* eslint-disable */
-  githubSrc: 'https://raw.githubusercontent.com/ReproNim/demo-protocol/master/VoicePilot/VoicePilot_schema',
-  banner: 'This is a demonstration protocol for ReproSchema.',
+  githubSrc: 'https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/darius/VoicePilot/VoicePilot_schema',
+  banner: 'Study on Stuttering',
   startButton: 'Join',
-  assetsPublicPath: '/demo-protocol/',
+  assetsPublicPath: '/MumbleMelody_Long/',
   backendServer: null
 };
