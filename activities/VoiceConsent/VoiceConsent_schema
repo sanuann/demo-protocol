@@ -1,5 +1,5 @@
 {
-    "@context":"https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/darius/activities/VoiceConsent/",
+    "@context":"https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/darius/activities/",
     "@type": "reproschema:Activity",
     "@id": "VoiceConsent_schema",
     "prefLabel": "Voice Consent",
