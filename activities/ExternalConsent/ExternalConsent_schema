@@ -1,0 +1,25 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+        {
+            "rl": "https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/darius/activities/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "ExternalConsent_schema",
+    "prefLabel": "External Consent Form",
+    "description": "Stuttering experiment consent",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "preamble": "Before proceeding any further, make sure that the consent form linked below was carefully reviewed and signed.",
+    "ui": {
+        "addProperties": [
+        ],
+        "order": [
+
+        ],
+        "shuffle": false
+    },
+    "name":"Click here to open the consent page."
+    "url":"https://www.repronim.org/reproschema/30_schema/"
+
+}

@@ -1,0 +1,26 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+        {
+            "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "Screening_schema",
+    "prefLabel": "Pre-Testing Questionnaire",
+    "description": "example of nested activity",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+                {"isAbout": "./items/healthCondition",
+                "variableName": "health_condition",
+                "isVis": true
+                }
+
+        ],
+        "order": [
+            "./items/healthCondition"
+        ],
+        "shuffle": false
+    }
+}

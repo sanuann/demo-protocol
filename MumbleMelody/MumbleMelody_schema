@@ -7,10 +7,10 @@
     "@type": "reproschema:Protocol",
     "@id": "MumbleMelody_schema",
     "prefLabel": {
-        "en": "Demo protocol",
+        "en": "Stuttering Protocol",
         "es": "Protocolo de demostración"
     },
-    "description": "Activity set for a Demonstration Protocol",
+    "description": "Stuttering Protocol",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "landingPage": {
@@ -20,12 +20,12 @@
     "image": "mit_voice_pilot_applet_image.svg?sanitize=true",
     "ui": {
         "addProperties": [
-            {"isAbout": "../activities/Screening/Screening_schema",
-            "variableName": "Screening_schema",
+            {"isAbout": "../activities/PreScreening/Screening_schema",
+            "variableName": "PreScreening_schema",
             "prefLabel": {"en": "Pre-Testing Questionnaire"}
             },
-            {"isAbout": "../activities/VoiceConsent/VoiceConsent_schema",
-            "variableName": "VoiceConsent_schema",
+            {"isAbout": "../activities/ExternalConsent/ExternalConsent_schema",
+            "variableName": "ExternalConsent_schema",
             "prefLabel": {"en": "Consent"}
             },
             {"isAbout": "../activities/VoiceTask/VoiceTask_schema",
@@ -46,8 +46,8 @@
             }
         ],
         "order": [
-            "../activities/Screening/Screening_schema",
-            "../activities/VoiceConsent/VoiceConsent_schema",
+            "../activities/PreScreening/PreScreening_schema",
+            "../activities/ExternalConsent/ExternalConsent_schema",
             "../activities/VoiceTask/VoiceTask_schema",
             "rl:MiscellaneousQuestions/MiscellaneousQuestions_schema",
             "rl:ThankYou/ThankYou_schema"
