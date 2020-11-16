@@ -1,6 +1,3 @@
-
-<a href="https://www.repronim.org/reproschema-ui/#/?url=https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/darius/MumbleMelody/MumbleMelody_schema">Protocol Can be Accessed at the Following Link</a>
-<br>
 <section style="height: 30vw; min-height: 15rem;
       background: linear-gradient(#268762, #15ac7f)">
         <div style="
