@@ -5,7 +5,7 @@
         }
     ],
     "@type": "reproschema:Protocol",
-    "@id": "VoicePilot_schema",
+    "@id": "MumbleMelody_schema",
     "prefLabel": {
         "en": "Demo protocol",
         "es": "Protocolo de demostración"
