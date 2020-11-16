@@ -10,5 +10,19 @@
     "description": "Stuttering experiment consent",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "preamble": "Before proceeding any further, make sure that the consent form linked below was carefully reviewed and signed. Click here to open the consent page."
+    "citation": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC314375/",
+    "preamble": "Before proceeding any further, make sure that the consent form linked below was carefully reviewed and signed. Click here to open the consent page.",
+    "ui": {
+        "addProperties": [
+                {"isAbout": "./items/redirect",
+                "variableName": "redirect",
+                "isVis": true
+                }
+
+        ],
+        "order": [
+            "./items/redirect"
+        ],
+        "shuffle": false
+    }
 }

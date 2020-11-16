@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "check_instruction",
+    "prefLabel": "Check Consent",
+    "altLabel": "consent_check",
+    "description": "schema for consent redirect",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": "External Consent Link Redirect.",
+    "ui": {
+        "inputType": "buttonStart"
+    },
+    "responseOptions": {
+        "valueType": "xsd:boolean",
+        "minValue": 0,
+        "maxValue": 1
+    }
+}
