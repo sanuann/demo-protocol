@@ -15,7 +15,8 @@
         "addProperties": [
                 {"isAbout": "rl:VoiceTask/items/say_ah",
                 "variableName": "say_ah",
-                "isVis": true
+                "isVis": true,
+                "timer": true,
                 },
                 {"isAbout": "rl:VoiceTask/items/pataka",
                 "variableName": "pataka",
