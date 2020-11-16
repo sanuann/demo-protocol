@@ -20,7 +20,7 @@
     "image": "mit_voice_pilot_applet_image.svg?sanitize=true",
     "ui": {
         "addProperties": [
-            {"isAbout": "../activities/PreScreening/Screening_schema",
+            {"isAbout": "../activities/PreScreening/PreScreening_schema",
             "variableName": "PreScreening_schema",
             "prefLabel": {"en": "Pre-Testing Questionnaire"}
             },
