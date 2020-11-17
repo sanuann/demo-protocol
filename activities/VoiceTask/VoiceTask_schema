@@ -1,5 +1,5 @@
 {
-    "@context":"https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/darius/activities/",
+    "@context":"https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/darius/activities",
     "@type": "reproschema:Activity",
     "@id": "VoiceTask_schema",
     "prefLabel": "voice tasks",
