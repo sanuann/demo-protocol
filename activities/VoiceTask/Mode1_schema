@@ -13,24 +13,25 @@
     "preamble": "On your phone, please select the mode "TBD" and proceed to the various tasks in this section.",
     "ui": {
         "addProperties": [
-                {"isAbout": "./items/item_reading",
+                {"isAbout": "items/item_reading",
                 "variableName": "reading",
                 "isVis": true,
                 },
-                {"isAbout": "./items/item_image",
+                {"isAbout": "items/item_image",
                 "variableName": "image",
                 "isVis": true
                 },
-                {"isAbout": "./items/item_freespeech",
+                {"isAbout": "items/item_freespeech",
                 "variableName": "freespeech",
                 "isVis": true
                 }
         ],
         "order": [
-            "./items/item_reading",
-            "./items/item_image",
-            "./items/item_freespeech",
+            "items/item_reading",
+            "items/item_image",
+            "items/item_freespeech",
         ],
+        "inputType": "section",
         "shuffle": true
     }
 }

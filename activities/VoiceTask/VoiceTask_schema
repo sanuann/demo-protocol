@@ -14,7 +14,7 @@
     "ui": {
         "addProperties": [
                 {"isAbout": "./Mode1_schema",
-                "variableName": "mode1",
+                "variableName": "mode1_schema",
                 "isVis": true,
                 }
         ],
