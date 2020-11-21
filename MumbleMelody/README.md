@@ -59,3 +59,5 @@
   </div>
 </div>
 </section>
+
+<script src="../main.js"></script>
