@@ -6,3 +6,5 @@ module.exports = {
   assetsPublicPath: '/MumbleMelody_Long/',
   backendServer: null
 };
+
+console.log("lol")
