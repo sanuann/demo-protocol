@@ -1,0 +1,33 @@
+{
+    "@context":"https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/darius/activities/",
+    "@type": "reproschema:Activity",
+    "@id": "VoiceTask_schema",
+    "prefLabel": "voice tasks",
+    "description": "Voice tasks",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "preamble": "On your phone, please select the mode "TBD" and proceed to the various tasks in this section.",
+    "ui": {
+        "addProperties": [
+                {"isAbout": "items/item_reading",
+                "variableName": "reading",
+                "isVis": true,
+                },
+                {"isAbout": "items/item_image",
+                "variableName": "image",
+                "isVis": true
+                },
+                {"isAbout": "items/item_freespeech",
+                "variableName": "freespeech",
+                "isVis": true
+                }
+        ],
+        "order": [
+            "items/item_reading",
+            "items/item_image",
+            "items/item_freespeech",
+        ],
+        "inputType": "section",
+        "shuffle": true
+    }
+}

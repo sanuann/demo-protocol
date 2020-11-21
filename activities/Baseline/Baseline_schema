@@ -1,0 +1,49 @@
+{
+    "@context":"https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/darius/activities/",
+    "@type": "reproschema:Activity",
+    "@id": "Baseline_schema",
+    "prefLabel": "baseline voice tasks",
+    "description": "Baseline Voice Tasks",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "preamble": "The first stage of the experiment will consists in capturing your voice as is, without any type of feedback mechanism added.",
+    "ui": {
+        "addProperties": [
+                {"isAbout": "items/item_reading1",
+                "variableName": "reading1",
+                "isVis": true,
+                },
+                {"isAbout": "items/item_reading2",
+                "variableName": "reading2",
+                "isVis": true,
+                },
+                {"isAbout": "items/item_image",
+                "variableName": "image",
+                "isVis": true
+                },
+                {"isAbout": "items/item_q1",
+                "variableName": "question1",
+                "isVis": true
+                },
+                {"isAbout": "items/item_q2",
+                "variableName": "question2",
+                "isVis": true
+                },
+                {"isAbout": "items/item_q3",
+                "variableName": "question3",
+                "isVis": true
+                },
+                {"isAbout": "items/item_q4",
+                "variableName": "question4",
+                "isVis": true
+                },
+        ],
+        "order": [
+            "items/item_reading",
+            "items/item_image",
+            "items/item_freespeech",
+        ],
+        "inputType": "section",
+        "shuffle": true
+    }
+}
