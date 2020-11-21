@@ -54,10 +54,10 @@
             }
         ],
         "order": [
-            "../activities/Baseline/Baseline_schema",
+            "../activities/ExternalConsent/ExternalConsent_schema",
             "../activities/SUIDInput/SUIDInput_schema",
             "../activities/PreScreening/PreScreening_schema",
-            "../activities/ExternalConsent/ExternalConsent_schema",
+            "../activities/Baseline/Baseline_schema",
             "../activities/VoiceTask/VoiceTask_schema",
             "../activities/PostScreening/PostScreening_schema",
             "rl:ThankYou/ThankYou_schema"

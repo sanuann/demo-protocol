@@ -39,9 +39,13 @@
                 },
         ],
         "order": [
-            "items/item_reading",
+            "items/item_reading1",
+            "items/item_reading2",
             "items/item_image",
-            "items/item_freespeech",
+            "items/item_q1",
+            "items/item_q2",
+            "items/item_q3",
+            "items/item_q4",
         ],
         "inputType": "section",
         "shuffle": true
