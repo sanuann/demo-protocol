@@ -20,6 +20,10 @@
     "image": "mit_voice_pilot_applet_image.svg?sanitize=true",
     "ui": {
         "addProperties": [
+            {"isAbout": "../activities/ExternalConsent/ExternalConsent_schema",
+            "variableName": "ExternalConsent_schema",
+            "prefLabel": {"en": "Consent"}
+            },
             {"isAbout": "../activities/SUIDInput/SUIDInput_schema",
             "variableName": "SUIDInput_schema",
             "prefLabel": {"en": "Subject Unique ID (SUID)"}
@@ -28,9 +32,9 @@
             "variableName": "PreScreening_schema",
             "prefLabel": {"en": "Pre-Testing Questionnaire"}
             },
-            {"isAbout": "../activities/ExternalConsent/ExternalConsent_schema",
-            "variableName": "ExternalConsent_schema",
-            "prefLabel": {"en": "Consent"}
+            {"isAbout": "../activities/Baseline/Baseline_schema",
+            "variableName": "Baseline_schema",
+            "prefLabel": {"en": "Baseline Voice Task"}
             },
             {"isAbout": "../activities/VoiceTask/VoiceTask_schema",
             "variableName": "VoiceTask_schema",
@@ -50,6 +54,7 @@
             }
         ],
         "order": [
+            "../activities/Baseline/Baseline_schema",
             "../activities/SUIDInput/SUIDInput_schema",
             "../activities/PreScreening/PreScreening_schema",
             "../activities/ExternalConsent/ExternalConsent_schema",
