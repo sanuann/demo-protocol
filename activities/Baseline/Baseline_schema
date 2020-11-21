@@ -2,7 +2,7 @@
     "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
         {
                
-            "mm": "https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/darius/activities/",
+            "mm": "https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/darius/activities/Baseline/",
             "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/",         
         }
     ],
@@ -12,46 +12,46 @@
     "description": "Baseline Voice Tasks",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "preamble": "The first stage of the experiment will consists in capturing your voice as is, without any type of feedback mechanism added.",
+    "preamble": "The first stage of the experiment will consists in capturing your voice as is, without any type of feedback mechanism added to it.",
     "ui": {
         "addProperties": [
-                {"isAbout": "mm:Baseline/items/item_reading1",
+                {"isAbout": "items/item_reading1",
                 "variableName": "reading1",
                 "isVis": true,
                 },
-                {"isAbout": "mm:Baseline/items/item_reading2",
+                {"isAbout": "items/item_reading2",
                 "variableName": "reading2",
                 "isVis": true,
                 },
-                {"isAbout": "mm:Baseline/items/item_image",
+                {"isAbout": "items/item_image",
                 "variableName": "image",
                 "isVis": true
                 },
-                {"isAbout": "mm:Baseline/items/item_q1",
+                {"isAbout": "items/item_q1",
                 "variableName": "question1",
                 "isVis": true
                 },
-                {"isAbout": "mm:Baseline/items/item_q2",
+                {"isAbout": "items/item_q2",
                 "variableName": "question2",
                 "isVis": true
                 },
-                {"isAbout": "mm:Baseline/items/item_q3",
+                {"isAbout": "items/item_q3",
                 "variableName": "question3",
                 "isVis": true
                 },
-                {"isAbout": "mm:Baseline/items/item_q4",
+                {"isAbout": "items/item_q4",
                 "variableName": "question4",
                 "isVis": true
                 },
         ],
         "order": [
-            "mm:Baseline/items/item_reading1",
-            "mm:Baseline/items/item_reading2",
-            "mm:Baseline/items/item_image",
-            "mm:Baseline/items/item_q1",
-            "mm:Baseline/items/item_q2",
-            "mm:Baseline/items/item_q3",
-            "mm:Baseline/items/item_q4",
+            "items/item_reading1",
+            "items/item_reading2",
+            "items/item_image",
+            "items/item_q1",
+            "items/item_q2",
+            "items/item_q3",
+            "items/item_q4",
         ],
         "inputType": "section",
         "shuffle": true
