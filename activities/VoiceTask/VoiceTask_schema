@@ -11,7 +11,7 @@
         "addProperties": [
                 {"isAbout": "Mode1_schema",
                 "variableName": "mode1_schema",
-                "isVis": true,
+                "isVis": true
                 }
         ],
         "order": [

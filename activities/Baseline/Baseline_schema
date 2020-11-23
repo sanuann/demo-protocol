@@ -3,7 +3,7 @@
         {
                
             "mm": "https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/darius/activities/",
-            "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/",         
+            "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"       
         }
     ],
     "@type": "reproschema:Activity",
