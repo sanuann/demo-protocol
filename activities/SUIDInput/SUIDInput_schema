@@ -16,7 +16,6 @@
                 "variableName": "suid_input",
                 "isVis": true
                 }
-
         ],
         "order": [
             "./items/suidInput"

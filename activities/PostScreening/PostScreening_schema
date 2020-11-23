@@ -16,7 +16,6 @@
                 "variableName": "health_condition",
                 "isVis": true
                 }
-
         ],
         "order": [
             "./items/healthCondition"

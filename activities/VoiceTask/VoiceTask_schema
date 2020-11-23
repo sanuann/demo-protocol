@@ -15,7 +15,7 @@
                 }
         ],
         "order": [
-            "Mode1_schema",
+            "Mode1_schema"
         ],
         "shuffle": true
     }

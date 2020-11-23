@@ -42,7 +42,7 @@
                 {"isAbout": "mm:Baseline/items/item_q4",
                 "variableName": "question4",
                 "isVis": true
-                },
+                }
         ],
         "order": [
             "mm:Baseline/items/item_reading1",
@@ -51,7 +51,7 @@
             "mm:Baseline/items/item_q1",
             "mm:Baseline/items/item_q2",
             "mm:Baseline/items/item_q3",
-            "mm:Baseline/items/item_q4",
+            "mm:Baseline/items/item_q4"
         ],
         "inputType": "section",
         "shuffle": true
