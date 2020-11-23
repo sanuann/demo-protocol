@@ -40,10 +40,6 @@
             "variableName": "VoiceTask_schema",
             "prefLabel": {"en": "Voice"}
             },
-            {"isAbout": "../activities/VoiceTask/VoiceTask_schema",
-            "variableName": "VoiceTask_schema",
-            "prefLabel": {"en": "Voice"}
-            },
             {"isAbout": "../activities/PostScreening/PostScreening_schema",
             "variableName": "PostScreening_schema",
             "prefLabel": {"en": "Post-Testing Questionnaire"}
