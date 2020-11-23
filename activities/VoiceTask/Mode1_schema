@@ -25,7 +25,7 @@
         "order": [
             "items/item_reading",
             "items/item_image",
-            "items/item_freespeech",
+            "items/item_freespeech"
         ],
         "inputType": "section",
         "shuffle": true
