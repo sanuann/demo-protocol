@@ -17,11 +17,11 @@
         "addProperties": [
                 {"isAbout": "mm:Baseline/items/item_reading1",
                 "variableName": "reading1",
-                "isVis": true,
+                "isVis": true
                 },
                 {"isAbout": "mm:Baseline/items/item_reading2",
                 "variableName": "reading2",
-                "isVis": true,
+                "isVis": true
                 },
                 {"isAbout": "mm:Baseline/items/item_image",
                 "variableName": "image",
