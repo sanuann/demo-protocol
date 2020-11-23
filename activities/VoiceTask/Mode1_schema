@@ -1,9 +1,12 @@
 {
     "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
         {
-            "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/VoiceTask/"
+               
+            "mm": "https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/darius/activities/",
+            "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"       
         }
     ],
+
     "@type": "reproschema:Activity",
     "@id": "mode1_schema",
     "prefLabel": "mode1",
@@ -13,23 +16,23 @@
     "preamble": "On your phone, please select the mode and proceed to the various tasks in this section.",
     "ui": {
         "addProperties": [
-                {"isAbout": "./items/item_reading",
+                {"isAbout": "mm:VoiceTask/items/item_reading",
                 "variableName": "reading",
                 "isVis": true
                 },
-                {"isAbout": "./items/item_image",
+                {"isAbout": "mm:VoiceTask/items/item_image",
                 "variableName": "image",
                 "isVis": true
                 },
-                {"isAbout": "./items/item_freespeech",
+                {"isAbout": "mm:VoiceTask/items/item_freespeech",
                 "variableName": "freespeech",
                 "isVis": true
                 }
         ],
         "order": [
-            "./items/item_reading",
-            "./items/item_image",
-            "./items/item_freespeech"
+            "mm:VoiceTask/items/item_reading",
+            "mm:VoiceTask/items/item_image",
+            "mm:VoiceTask/items/item_freespeech"
         ],
         "inputType": "section",
         "shuffle": true
