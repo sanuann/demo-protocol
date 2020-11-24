@@ -1,7 +1,9 @@
 {
     "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
         {
-            "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"
+               
+            "mm": "https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/darius/activities/",
+            "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"       
         }
     ],
     "@type": "reproschema:Activity",
@@ -13,25 +15,15 @@
     "preamble": "For each task, you should hit the record button before speaking and then stop once you are done speaking. You may hit play to hear what was recorded.",
     "ui": {
         "addProperties": [
-                {"isAbout": "mm:VoiceTask/items/item_reading",
+                {"isAbout": "mm:VoiceTask/Mode1_schema",
                 "variableName": "reading",
-                "isVis": true
-                },
-                {"isAbout": "mm:VoiceTask/items/item_image",
-                "variableName": "image",
-                "isVis": true
-                },
-                {"isAbout": "mm:VoiceTask/items/item_freespeech",
-                "variableName": "freespeech",
                 "isVis": true
                 }
         ],
         "order": [
-            "mm:VoiceTask/items/item_reading",
-            "mm:VoiceTask/items/item_image",
-            "mm:VoiceTask/items/item_freespeech"
+            "mm:VoiceTask/Mode1_schema",
         ],
         "inputType": "section",
-        "shuffle": true
+        "shuffle": false
     }
 }
