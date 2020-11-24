@@ -21,7 +21,7 @@
                 }
         ],
         "order": [
-            "mm:VoiceTask/Mode1_schema",
+            "mm:VoiceTask/Mode1_schema"
         ],
         "inputType": "section",
         "shuffle": false
