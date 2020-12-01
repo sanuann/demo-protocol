@@ -12,7 +12,7 @@
     "description": "Baseline Voice Tasks",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "preamble": "The first stage of the experiment will consists in capturing your voice as is, without any type of feedback mechanism added to it.",
+    "preamble": "The first stage of the experiment will consists in capturing your voice as is, without any type of feedback mechanism added to the process.",
     "ui": {
         "addProperties": [
                 {"isAbout": "mm:Baseline/items/item_reading1",
