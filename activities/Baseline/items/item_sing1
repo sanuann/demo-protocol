@@ -7,10 +7,7 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "preamble": "Please hit record, read the following poem out loud first, and then sing the same passage to the tune of Happy Birthday. If you are doing this on a phone, you may need to scroll to the end of the passage. After you are done reading, hit Stop to end recording.",
-    "question": "On a Tuesday I flew
-		Out from Boston to you.
-		I was ready for summer,
-		And the sky was true blue.
+    "question": "On a Tuesday I flew Out from Boston to you. I was ready for summer, And the sky was true blue.
 ",
     "ui": {
         "inputType": "audioPassageRecord"
