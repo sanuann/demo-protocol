@@ -2,7 +2,7 @@
     "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
         {
                
-            "mm": "https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/darius/activities/",
+            "mm": "https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/master/activities/",
             "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"       
         }
     ],
