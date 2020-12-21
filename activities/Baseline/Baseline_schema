@@ -15,43 +15,43 @@
     "preamble": "The first stage of the experiment will consists in capturing your voice as is, without any type of feedback mechanism added to the process.",
     "ui": {
         "addProperties": [
-                {"isAbout": "mm:Baseline/items/item_reading1",
+                {"isAbout": "mm:Baseline/week1_items/item_reading1",
                 "variableName": "reading1",
                 "isVis": true
                 },
-                {"isAbout": "mm:Baseline/items/item_reading2",
+                {"isAbout": "mm:Baseline/week1_items/item_reading2",
                 "variableName": "reading2",
                 "isVis": true
                 },
-                {"isAbout": "mm:Baseline/items/item_image",
+                {"isAbout": "mm:Baseline/week1_items/item_image",
                 "variableName": "image",
                 "isVis": true
                 },
-                {"isAbout": "mm:Baseline/items/item_q1",
+                {"isAbout": "mm:Baseline/week1_items/item_q1",
                 "variableName": "question1",
                 "isVis": true
                 },
-                {"isAbout": "mm:Baseline/items/item_q2",
+                {"isAbout": "mm:Baseline/week1_items/item_q2",
                 "variableName": "question2",
                 "isVis": true
                 },
-                {"isAbout": "mm:Baseline/items/item_q3",
+                {"isAbout": "mm:Baseline/week1_items/item_q3",
                 "variableName": "question3",
                 "isVis": true
                 },
-                {"isAbout": "mm:Baseline/items/item_q4",
+                {"isAbout": "mm:Baseline/week1_items/item_q4",
                 "variableName": "question4",
                 "isVis": true
                 }
         ],
         "order": [
-            "mm:Baseline/items/item_reading1",
-            "mm:Baseline/items/item_reading2",
-            "mm:Baseline/items/item_image",
-            "mm:Baseline/items/item_q1",
-            "mm:Baseline/items/item_q2",
-            "mm:Baseline/items/item_q3",
-            "mm:Baseline/items/item_q4"
+            "mm:Baseline/week1_items/item_reading1",
+            "mm:Baseline/week1_items/item_reading2",
+            "mm:Baseline/week1_items/item_image",
+            "mm:Baseline/week1_items/item_q1",
+            "mm:Baseline/week1_items/item_q2",
+            "mm:Baseline/week1_items/item_q3",
+            "mm:Baseline/week1_items/item_q4"
         ],
         "inputType": "section",
         "shuffle": true

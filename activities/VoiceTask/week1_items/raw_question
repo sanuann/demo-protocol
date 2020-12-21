@@ -1,15 +1,13 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "free_speech_general_mood",
-    "prefLabel": "Free speech general",
-    "description": "free speech item for voice task",
+    "@id": "question_raw_week1",
+    "prefLabel": "Raw Question week 1",
+    "description": "Week 1, Question, Raw Mode",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "Tell me how you're feeling, and why you think you feel that way with as much detail as possible.",
-        "es": "Cuenta cómo te sientes y por qué piensas que te sientes de ese modo con el mayor detalle y profundidad posible."
-    },
+        "en": "Placeholder for raw question, week 1."},
     "ui": {
         "inputType": "audioRecord"
     },

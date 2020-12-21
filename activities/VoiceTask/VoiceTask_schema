@@ -15,13 +15,16 @@
     "preamble": "For each task, you should hit the record button before speaking and then stop once you are done speaking. You may hit play to hear what was recorded.",
     "ui": {
         "addProperties": [
-                {"isAbout": "mm:VoiceTask/Mode1_schema",
+                {"isAbout": "mm:VoiceTask/Mode_raw_schema",
                 "variableName": "reading",
                 "isVis": true
                 }
         ],
         "order": [
-            "mm:VoiceTask/Mode1_schema"
+            "mm:VoiceTask/Mode_raw_schema",
+            "mm:VoiceTask/Mode_harm_schema",
+            "mm:VoiceTask/Mode_rev_schema",
+            "mm:VoiceTask/Mode_whisper_schema"
         ],
         "inputType": "section",
         "shuffle": false

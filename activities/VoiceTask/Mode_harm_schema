@@ -8,31 +8,31 @@
     ],
 
     "@type": "reproschema:Activity",
-    "@id": "mode1_schema",
-    "prefLabel": "mode1",
-    "description": "Mode 1 tasks",
+    "@id": "mode_harmonize_schema",
+    "prefLabel": "mode_harmonize",
+    "description": "Harmonize Mode tasks",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "preamble": "On your phone, please select the mode and proceed to the various tasks in this section.",
+    "preamble": "On your phone, open the MumbleMelody App and please select the mode \"HARMONIZE\" and proceed to the various tasks in this section.",
     "ui": {
         "addProperties": [
-                {"isAbout": "mm:VoiceTask/items/item_reading",
+                {"isAbout": "mm:VoiceTask/week1_items/harm_reading",
                 "variableName": "reading",
                 "isVis": true
                 },
-                {"isAbout": "mm:VoiceTask/items/item_image",
-                "variableName": "image",
-                "isVis": true
-                },
-                {"isAbout": "mm:VoiceTask/items/item_freespeech",
+                {"isAbout": "mm:VoiceTask/week1_items/harm_freespeech",
                 "variableName": "freespeech",
                 "isVis": true
+                },
+                {"isAbout": "mm:VoiceTask/week1_items/harm_question",
+                    "variableName": "question",
+                    "isVis": true
                 }
         ],
         "order": [
-            "mm:VoiceTask/items/item_reading",
-            "mm:VoiceTask/items/item_image",
-            "mm:VoiceTask/items/item_freespeech"
+            "mm:VoiceTask/week1_items/harm_reading",
+            "mm:VoiceTask/week1_items/harm_freespeech",
+            "mm:VoiceTask/week1_items/harm_question"
         ],
         "inputType": "section",
         "shuffle": true
