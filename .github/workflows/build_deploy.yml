@@ -49,7 +49,7 @@ jobs:
     - name: Test with pyshacl
       run: |
         reproschema -l DEBUG validate activities
-        reproschema -l DEBUG validate VoicePilot/VoicePilot_schema
+        reproschema -l DEBUG validate MumbleMelody/MumbleMelody_schema
 
     # Runs a set of commands using the runners shell
     - name: Run a multi-line script
