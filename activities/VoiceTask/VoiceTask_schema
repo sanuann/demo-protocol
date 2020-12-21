@@ -16,19 +16,19 @@
     "ui": {
         "addProperties": [
                 {"isAbout": "mm:VoiceTask/Mode_raw_schema",
-                "variableName": "reading",
+                "variableName": "raw",
                 "isVis": true
                 },
                 {"isAbout": "mm:VoiceTask/Mode_harm_schema",
-                "variableName": "reading",
+                "variableName": "harmony",
                 "isVis": true
                 },
                 {"isAbout": "mm:VoiceTask/Mode_whisper_schema",
-                "variableName": "reading",
+                "variableName": "whisper",
                 "isVis": true
                 },
                 {"isAbout": "mm:VoiceTask/Mode_rev_schema",
-                "variableName": "reading",
+                "variableName": "reverb",
                 "isVis": true
                 }
         ],
