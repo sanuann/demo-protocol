@@ -1,13 +1,15 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "baseline_q4",
-    "prefLabel": "Baseline Question 4",
-    "description": "question item for baseline voice task",
+    "@id": "freespeech_baseline_week1",
+    "prefLabel": "Free baseline week 1",
+    "description": "Week 1, Freespeech, Baseline",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "Tell me about your history of stuttering."},
+        "en": "Placeholder for baseline free speech, week 1.",
+        "es": ""
+    },
     "ui": {
         "inputType": "audioRecord"
     },

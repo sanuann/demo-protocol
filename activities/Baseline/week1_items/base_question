@@ -1,13 +1,13 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "baseline_q1",
-    "prefLabel": "Baseline Question 1",
-    "description": "question item for baseline voice task",
+    "@id": "question_baseline_week1",
+    "prefLabel": "baseline Question week 1",
+    "description": "Week 1, Question, Baseline",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "How has your day/week been so far?"},
+        "en": "Placeholder for baseline question, week 1."},
     "ui": {
         "inputType": "audioRecord"
     },
