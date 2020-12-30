@@ -16,27 +16,27 @@
     "ui": {
         "addProperties": [
                 {"isAbout": "mm:Baseline/week1_items/base_freespeech",
-                "variableName": "week1",
+                "variableName": "week1_fs",
                 "isVis": true
                 },
                 {"isAbout": "mm:Baseline/week1_items/base_question",
-                "variableName": "week1",
+                "variableName": "week1_q",
                 "isVis": true
                 },
                 {"isAbout": "mm:Baseline/week1_items/base_reading",
-                "variableName": "week1",
+                "variableName": "week1_r",
                 "isVis": true
                 },
                 {"isAbout": "mm:Baseline/week2_items/base_freespeech",
-                "variableName": "week2",
+                "variableName": "week2_fs",
                 "isVis": true
                 },
                 {"isAbout": "mm:Baseline/week2_items/base_question",
-                "variableName": "week2",
+                "variableName": "week2_q",
                 "isVis": true
                 },
                 {"isAbout": "mm:Baseline/week2_items/base_reading",
-                "variableName": "week2",
+                "variableName": "week2_r",
                 "isVis": true
                 }
         ],

@@ -1,13 +1,13 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "question_baseline_week1",
-    "prefLabel": "baseline Question week 1",
-    "description": "Week 1, Question, Baseline",
+    "@id": "question_baseline_week2",
+    "prefLabel": "baseline Question week 2",
+    "description": "Week 2, Question, Baseline",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "Placeholder for baseline question, week 1."},
+        "en": "Placeholder for baseline question, week 2."},
     "ui": {
         "inputType": "audioRecord"
     },
