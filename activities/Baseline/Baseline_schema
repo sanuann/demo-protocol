@@ -16,15 +16,27 @@
     "ui": {
         "addProperties": [
                 {"isAbout": "mm:Baseline/week1_items/base_freespeech",
-                "variableName": "reading1",
+                "variableName": "week1",
                 "isVis": true
                 },
                 {"isAbout": "mm:Baseline/week1_items/base_question",
-                "variableName": "reading2",
+                "variableName": "week1",
                 "isVis": true
                 },
                 {"isAbout": "mm:Baseline/week1_items/base_reading",
-                "variableName": "image",
+                "variableName": "week1",
+                "isVis": true
+                },
+                {"isAbout": "mm:Baseline/week2_items/base_freespeech",
+                "variableName": "week2",
+                "isVis": true
+                },
+                {"isAbout": "mm:Baseline/week2_items/base_question",
+                "variableName": "week2",
+                "isVis": true
+                },
+                {"isAbout": "mm:Baseline/week2_items/base_reading",
+                "variableName": "week2",
                 "isVis": true
                 }
         ],
@@ -32,6 +44,9 @@
             "mm:Baseline/week1_items/base_freespeech",
             "mm:Baseline/week1_items/base_question",
             "mm:Baseline/week1_items/base_reading"
+            "mm:Baseline/week2_items/base_freespeech",
+            "mm:Baseline/week2_items/base_question",
+            "mm:Baseline/week2_items/base_reading"
         ],
         "inputType": "section",
         "shuffle": true
