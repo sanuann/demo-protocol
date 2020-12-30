@@ -43,7 +43,7 @@
         "order": [
             "mm:Baseline/week1_items/base_freespeech",
             "mm:Baseline/week1_items/base_question",
-            "mm:Baseline/week1_items/base_reading"
+            "mm:Baseline/week1_items/base_reading",
             "mm:Baseline/week2_items/base_freespeech",
             "mm:Baseline/week2_items/base_question",
             "mm:Baseline/week2_items/base_reading"
