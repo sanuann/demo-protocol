@@ -19,11 +19,16 @@
                 {"isAbout": "./items/gender",
                 "variableName": "gender",
                 "isVis": true
+                },
+                {"isAbout": "./items/language",
+                "variableName": "language",
+                "isVis": true
                 }
         ],
         "order": [
             "./items/age",
-            "./items/gender"
+            "./items/gender",
+            "./items/language"
         ],
         "shuffle": false
     }
