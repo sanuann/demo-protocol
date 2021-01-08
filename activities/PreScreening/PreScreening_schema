@@ -12,13 +12,18 @@
     "version": "0.0.1",
     "ui": {
         "addProperties": [
-                {"isAbout": "./items/healthCondition",
-                "variableName": "health_condition",
+                {"isAbout": "./items/age",
+                "variableName": "age",
+                "isVis": true
+                },
+                {"isAbout": "./items/gender",
+                "variableName": "gender",
                 "isVis": true
                 }
         ],
         "order": [
-            "./items/healthCondition"
+            "./items/age",
+            "./items/gender"
         ],
         "shuffle": false
     }

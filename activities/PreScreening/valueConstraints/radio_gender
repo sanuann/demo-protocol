@@ -1,0 +1,32 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@id": "valueConstraints",
+    "@type": "reproschema:ResponseOption",
+    "valueType": "xsd:integer",
+    "minValue": 0,
+    "maxValue": 4,
+    "multipleChoice": false,
+    "choices": [
+        {
+            "name": {
+                "en": "Male",
+                "es": ""
+            },
+            "value": 0
+        },
+        {
+            "name": {
+                "en": "Female",
+                "es": ""
+            },
+            "value": 1
+        },
+        {
+            "name": {
+                "en": "Other",
+                "es": ""
+            },
+            "value": 2
+        }
+    ]
+}
