@@ -35,6 +35,6 @@
             "mm:VoiceTask/week1_items/whisper_question"
         ],
         "inputType": "section",
-        "shuffle": true
+        "shuffle": false
     }
 }
