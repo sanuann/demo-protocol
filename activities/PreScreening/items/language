@@ -12,6 +12,7 @@
     },
     "responseOptions": {
         "valueType": "xsd:string",
-        "maxLength": 50
+        "multipleChoice": false,
+        "choices": "https://raw.githubusercontent.com/ReproNim/reproschema/master/resources/languages.json"
     }
 }
