@@ -39,6 +39,14 @@
                 {"isAbout": "./items/handeness2",
                 "variableName": "handeness2",
                 "isVis": "handeness1 === 3"
+                },
+                {"isAbout": "./items/diagnosed1",
+                "variableName": "diagnosed1",
+                "isVis": true
+                },
+                {"isAbout": "./items/diagnosed2",
+                "variableName": "diagnosed2",
+                "isVis": "diagnosed2 === \"oth\""
                 }
         ],
         "order": [
@@ -48,7 +56,9 @@
             "./items/education",
             "./items/household",
             "./items/handeness1",
-            "./items/handeness2"
+            "./items/handeness2",
+            "./items/diagnosed1",
+            "./items/diagnosed2"
         ],
         "shuffle": false
     }
