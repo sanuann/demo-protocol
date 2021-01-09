@@ -38,7 +38,7 @@
                 },
                 {"isAbout": "./items/handeness",
                 "variableName": "handeness2",
-                "isVis": ""handeness1 === 3"
+                "isVis": "handeness1 === 3"
                 }
         ],
         "order": [
