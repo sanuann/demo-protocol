@@ -36,7 +36,7 @@
                 "variableName": "handeness1",
                 "isVis": true
                 },
-                {"isAbout": "./items/handeness",
+                {"isAbout": "./items/handeness2",
                 "variableName": "handeness2",
                 "isVis": "handeness1 === 3"
                 }
