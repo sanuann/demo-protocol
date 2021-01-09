@@ -13,6 +13,6 @@
     "responseOptions": {
         "valueType": "xsd:string",
         "multipleChoice": false,
-        "choices": "../valueConstraints/education.json"
+        "choices": "https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/master/activities/PreScreening/valueConstraints/education.json"
     }
 }
