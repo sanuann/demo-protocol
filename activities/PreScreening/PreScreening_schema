@@ -30,10 +30,10 @@
                 }
         ],
         "order": [
-            "./items/education"
+            "./items/education",
             "./items/age",
             "./items/gender",
-            "./items/language",
+            "./items/language"
         ],
         "shuffle": false
     }
