@@ -46,19 +46,19 @@
                 },
                 {"isAbout": "./items/diagnosed2",
                 "variableName": "diagnosed2",
-                "isVis": "diagnosed1 === \"Other\""
+                "isVis": "diagnosed1 === \"oth\""
                 }
         ],
         "order": [
+            "./items/diagnosed1",
+            "./items/diagnosed2",
             "./items/age",
             "./items/gender",
             "./items/language",
             "./items/education",
             "./items/household",
             "./items/handeness1",
-            "./items/handeness2",
-            "./items/diagnosed1",
-            "./items/diagnosed2"
+            "./items/handeness2"
         ],
         "shuffle": false
     }
