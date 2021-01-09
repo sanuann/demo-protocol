@@ -28,7 +28,7 @@
         "order": [
             "./items/age",
             "./items/gender",
-            "./items/language"
+            "rl:../demographics_and_background_information_v1/items/fluentLanguages"
         ],
         "shuffle": false
     }
