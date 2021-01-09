@@ -23,12 +23,17 @@
                 {"isAbout": "./items/language",
                 "variableName": "language",
                 "isVis": true
+                },
+                {"isAbout": "./items/education",
+                "variableName": "education",
+                "isVis": true
                 }
         ],
         "order": [
+            "./items/education"
             "./items/age",
             "./items/gender",
-            "./items/language"
+            "./items/language",
         ],
         "shuffle": false
     }
