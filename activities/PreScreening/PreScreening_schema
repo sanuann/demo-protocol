@@ -46,7 +46,7 @@
                 },
                 {"isAbout": "./items/diagnosed2",
                 "variableName": "diagnosed2",
-                "isVis": "diagnosed1 === 1"
+                "isVis": "diagnosed1 === \"Other\""
                 }
         ],
         "order": [
