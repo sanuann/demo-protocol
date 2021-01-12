@@ -15,28 +15,28 @@
     "preamble": "For each task, you should hit the record button before speaking and then stop once you are done speaking. You may hit play to hear what was recorded.",
     "ui": {
         "addProperties": [
-                {"isAbout": "mm:../Harmonize/Harmonize_schema",
+                {"isAbout": "mm:/activities/Harmonize/Harmonize_schema",
                 "variableName": "harmonize",
                 "isVis": true
                 },
-                {"isAbout": "mm:../Reverb/Reverb",
+                {"isAbout": "mm:/activities/Reverb/Reverb",
                 "variableName": "reverb",
                 "isVis": true
                 },
-                {"isAbout": "mm:../Whisper/Whisper_schema",
+                {"isAbout": "mm:/activities/Whisper/Whisper_schema",
                 "variableName": "whisper",
                 "isVis": true
                 },
-                {"isAbout": "mm:../Raw/Raw_schema",
+                {"isAbout": "mm:/activities/Raw/Raw_schema",
                 "variableName": "raw",
                 "isVis": true
                 }
         ],
         "order": [
-            "mm:../Harmonize/Harmonize_schema",
-            "mm:../Reverb/Reverb",
-            "mm:../Whisper/Whisper_schema",
-            "mm:../Raw/Raw_schema"
+            "mm:/activities/Harmonize/Harmonize_schema",
+            "mm:/activities/Reverb/Reverb",
+            "mm:/activities/Whisper/Whisper_schema",
+            "mm:/activities/Raw/Raw_schema"
         ],
         "inputType": "section",
         "shuffle": false
