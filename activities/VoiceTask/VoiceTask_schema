@@ -15,28 +15,28 @@
     "preamble": "For each task, you should hit the record button before speaking and then stop once you are done speaking. You may hit play to hear what was recorded.",
     "ui": {
         "addProperties": [
-                {"isAbout": "mm:VoiceTask/Mode_raw_schema",
-                "variableName": "raw",
+                {"isAbout": "mm:../Harmonize/Harmonize_schema",
+                "variableName": "harmonize",
                 "isVis": true
                 },
-                {"isAbout": "mm:VoiceTask/Mode_harm_schema",
-                "variableName": "harmony",
+                {"isAbout": "mm:../Reverb/Reverb",
+                "variableName": "reverb",
                 "isVis": true
                 },
-                {"isAbout": "mm:VoiceTask/Mode_whisper_schema",
+                {"isAbout": "mm:../Whisper/Whisper_schema",
                 "variableName": "whisper",
                 "isVis": true
                 },
-                {"isAbout": "mm:VoiceTask/Mode_rev_schema",
-                "variableName": "reverb",
+                {"isAbout": "mm:../Raw/Raw_schema",
+                "variableName": "raw",
                 "isVis": true
                 }
         ],
         "order": [
-            "mm:VoiceTask/Mode_raw_schema",
-            "mm:VoiceTask/Mode_harm_schema",
-            "mm:VoiceTask/Mode_rev_schema",
-            "mm:VoiceTask/Mode_whisper_schema"
+            "mm:../Harmonize/Harmonize_schema",
+            "mm:../Reverb/Reverb",
+            "mm:../Whisper/Whisper_schema",
+            "mm:../Raw/Raw_schema",
         ],
         "inputType": "section",
         "shuffle": false

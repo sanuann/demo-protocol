@@ -1,0 +1,111 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+        {
+               
+            "mm": "https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/master/activities/",
+            "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"       
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "Whisper_schema",
+    "prefLabel": "whisper voice tasks",
+    "description": "Whisper Voice Tasks",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "preamble": "Whisper Voice Capture",
+    "ui": {
+        "addProperties": [
+
+
+                {"isAbout": "mm:Whisper/week1_items/whisper_question1",
+                "variableName": "week1_q1",
+                "isVis": "week === 1"
+                },
+                {"isAbout": "mm:Whisper/week1_items/whisper_question2",
+                "variableName": "week1_q2",
+                "isVis": "week === 1"
+                },
+                {"isAbout": "mm:Whisper/week1_items/whisper_reading1",
+                "variableName": "week1_r1",
+                "isVis": "week === 1"
+                },
+
+
+                {"isAbout": "mm:Whisper/week2_items/whisper_question1",
+                "variableName": "week2_q1",
+                "isVis": "week === 2"
+                },
+                {"isAbout": "mm:Whisper/week2_items/whisper_question2",
+                "variableName": "week2_q2",
+                "isVis": "week === 2"
+                },
+                {"isAbout": "mm:Whisper/week2_items/whisper_reading1",
+                "variableName": "week2_r1",
+                "isVis": "week === 2"
+                },
+
+                {"isAbout": "mm:Whisper/week3_items/whisper_question1",
+                "variableName": "week3_q1",
+                "isVis": "week === 3"
+                },
+                {"isAbout": "mm:Whisper/week3_items/whisper_question2",
+                "variableName": "week3_q2",
+                "isVis": "week === 3"
+                },
+                {"isAbout": "mm:Whisper/week3_items/whisper_reading1",
+                "variableName": "week3_r1",
+                "isVis": "week === 3"
+                }
+
+                {"isAbout": "mm:Whisper/week4_items/whisper_question1",
+                "variableName": "week4_q1",
+                "isVis": "week === 4"
+                },
+                {"isAbout": "mm:Whisper/week4_items/whisper_question2",
+                "variableName": "week4_q2",
+                "isVis": "week === 4"
+                },
+                {"isAbout": "mm:Whisper/week4_items/whisper_reading1",
+                "variableName": "week4_r1",
+                "isVis": "week === 4"
+                },
+
+                {"isAbout": "mm:Whisper/week5_items/whisper_question1",
+                "variableName": "week5_q1",
+                "isVis": "week === 5"
+                },
+                {"isAbout": "mm:Whisper/week5_items/whisper_question2",
+                "variableName": "week5_q2",
+                "isVis": "week === 5"
+                },
+                {"isAbout": "mm:Whisper/week5_items/whisper_reading1",
+                "variableName": "week5_r1",
+                "isVis": "week === 5"
+                }
+
+        ],
+        "order": [
+            "mm:Whisper/week1_items/whisper_question1",
+            "mm:Whisper/week1_items/whisper_question2",
+            "mm:Whisper/week1_items/whisper_reading1",
+
+            "mm:Whisper/week2_items/whisper_question1",
+            "mm:Whisper/week2_items/whisper_question2",
+            "mm:Whisper/week2_items/whisper_reading1",
+
+            "mm:Whisper/week3_items/whisper_question1",
+            "mm:Whisper/week3_items/whisper_question2",
+            "mm:Whisper/week3_items/whisper_reading1",
+
+            "mm:Whisper/week4_items/whisper_question1",
+            "mm:Whisper/week4_items/whisper_question2",
+            "mm:Whisper/week4_items/whisper_reading1",
+
+            "mm:Whisper/week5_items/whisper_question1",
+            "mm:Whisper/week5_items/whisper_question2",
+            "mm:Whisper/week5_items/whisper_reading1"
+        ],
+        "inputType": "section",
+        "shuffle": false
+    }
+}

@@ -1,15 +1,13 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "freespeech_baseline_week1",
-    "prefLabel": "Free baseline week 1",
-    "description": "Week 1, Freespeech, Baseline",
+    "@id": "question2_baseline_week3",
+    "prefLabel": "baseline Question 2 week 3",
+    "description": "Week 3, Question 2, Baseline",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "Placeholder for baseline free speech, week 1.",
-        "es": ""
-    },
+        "en": "What do you always keep in your fridge ?"},
     "ui": {
         "inputType": "audioRecord"
     },

@@ -1,0 +1,111 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+        {
+               
+            "mm": "https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/master/activities/",
+            "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"       
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "Harmonize_schema",
+    "prefLabel": "harmonize voice tasks",
+    "description": "Harmonize Voice Tasks",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "preamble": "Harmonize Voice Capture",
+    "ui": {
+        "addProperties": [
+
+
+                {"isAbout": "mm:Harmonize/week1_items/harmonize_question1",
+                "variableName": "week1_q1",
+                "isVis": "week === 1"
+                },
+                {"isAbout": "mm:Harmonize/week1_items/harmonize_question2",
+                "variableName": "week1_q2",
+                "isVis": "week === 1"
+                },
+                {"isAbout": "mm:Harmonize/week1_items/harmonize_reading1",
+                "variableName": "week1_r1",
+                "isVis": "week === 1"
+                },
+
+
+                {"isAbout": "mm:Harmonize/week2_items/harmonize_question1",
+                "variableName": "week2_q1",
+                "isVis": "week === 2"
+                },
+                {"isAbout": "mm:Harmonize/week2_items/harmonize_question2",
+                "variableName": "week2_q2",
+                "isVis": "week === 2"
+                },
+                {"isAbout": "mm:Harmonize/week2_items/harmonize_reading1",
+                "variableName": "week2_r1",
+                "isVis": "week === 2"
+                },
+
+                {"isAbout": "mm:Harmonize/week3_items/harmonize_question1",
+                "variableName": "week3_q1",
+                "isVis": "week === 3"
+                },
+                {"isAbout": "mm:Harmonize/week3_items/harmonize_question2",
+                "variableName": "week3_q2",
+                "isVis": "week === 3"
+                },
+                {"isAbout": "mm:Harmonize/week3_items/harmonize_reading1",
+                "variableName": "week3_r1",
+                "isVis": "week === 3"
+                }
+
+                {"isAbout": "mm:Harmonize/week4_items/harmonize_question1",
+                "variableName": "week4_q1",
+                "isVis": "week === 4"
+                },
+                {"isAbout": "mm:Harmonize/week4_items/harmonize_question2",
+                "variableName": "week4_q2",
+                "isVis": "week === 4"
+                },
+                {"isAbout": "mm:Harmonize/week4_items/harmonize_reading1",
+                "variableName": "week4_r1",
+                "isVis": "week === 4"
+                },
+
+                {"isAbout": "mm:Harmonize/week5_items/harmonize_question1",
+                "variableName": "week5_q1",
+                "isVis": "week === 5"
+                },
+                {"isAbout": "mm:Harmonize/week5_items/harmonize_question2",
+                "variableName": "week5_q2",
+                "isVis": "week === 5"
+                },
+                {"isAbout": "mm:Harmonize/week5_items/harmonize_reading1",
+                "variableName": "week5_r1",
+                "isVis": "week === 5"
+                }
+
+        ],
+        "order": [
+            "mm:Harmonize/week1_items/harmonize_question1",
+            "mm:Harmonize/week1_items/harmonize_question2",
+            "mm:Harmonize/week1_items/harmonize_reading1",
+
+            "mm:Harmonize/week2_items/harmonize_question1",
+            "mm:Harmonize/week2_items/harmonize_question2",
+            "mm:Harmonize/week2_items/harmonize_reading1",
+
+            "mm:Harmonize/week3_items/harmonize_question1",
+            "mm:Harmonize/week3_items/harmonize_question2",
+            "mm:Harmonize/week3_items/harmonize_reading1",
+
+            "mm:Harmonize/week4_items/harmonize_question1",
+            "mm:Harmonize/week4_items/harmonize_question2",
+            "mm:Harmonize/week4_items/harmonize_reading1",
+
+            "mm:Harmonize/week5_items/harmonize_question1",
+            "mm:Harmonize/week5_items/harmonize_question2",
+            "mm:Harmonize/week5_items/harmonize_reading1"
+        ],
+        "inputType": "section",
+        "shuffle": false
+    }
+}

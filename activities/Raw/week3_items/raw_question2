@@ -1,15 +1,14 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "freespeech_baseline_week2",
-    "prefLabel": "Free baseline week 2",
-    "description": "Week 2, Freespeech, Baseline",
+    "@id": "question2_raw_week3",
+    "prefLabel": "raw Question 2 week 3",
+    "description": "Week 3, Question 2, Raw",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "Placeholder for baseline free speech, week 2.",
-        "es": ""
-    },
+        "en": "When was the last time you got to tell someone \"I told you so.\""?
+"},
     "ui": {
         "inputType": "audioRecord"
     },

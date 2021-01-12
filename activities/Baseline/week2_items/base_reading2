@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "reading2_baseline_week2",
+    "prefLabel": "Reading 2 baseline week 2",
+    "description": "Week 2, Reading 2, Baseline",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "preamble": "Please read the following passage out loud.",
+    "question": "Every time she threw a bit of fish to the birds flying around her hair, she’d comment on how sad the pigeons seemed. Although the woman shooed the pigeons away when their numbers grew too big, the neighbors grew tired of the spectacle and they sued the woman. The woman decided to give up the pigeons and pursued her love for golf. Every morning at eight o’clock, she teed off at the first hole. Instead of using a golf cart, however, she traveled from hole to hole on her freshly shod horse named Charlie",
+    "ui": {
+        "inputType": "audioPassageRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 150000
+    }
+}

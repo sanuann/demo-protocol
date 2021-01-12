@@ -15,38 +15,108 @@
     "preamble": "The first stage of the experiment will consists in capturing your voice as is, without any type of feedback mechanism added to the process.",
     "ui": {
         "addProperties": [
-                {"isAbout": "mm:Baseline/week1_items/base_freespeech",
-                "variableName": "week1_fs",
+
+
+                {"isAbout": "mm:Baseline/week1_items/base_question1",
+                "variableName": "week1_q1",
                 "isVis": "week === 1"
                 },
-                {"isAbout": "mm:Baseline/week1_items/base_question",
-                "variableName": "week1_q",
+                {"isAbout": "mm:Baseline/week1_items/base_question2",
+                "variableName": "week1_q2",
                 "isVis": "week === 1"
                 },
-                {"isAbout": "mm:Baseline/week1_items/base_reading",
-                "variableName": "week1_r",
+                {"isAbout": "mm:Baseline/week1_items/base_reading1",
+                "variableName": "week1_r1",
                 "isVis": "week === 1"
                 },
-                {"isAbout": "mm:Baseline/week2_items/base_freespeech",
-                "variableName": "week2_fs",
+
+
+                {"isAbout": "mm:Baseline/week2_items/base_question1",
+                "variableName": "week2_q1",
                 "isVis": "week === 2"
                 },
-                {"isAbout": "mm:Baseline/week2_items/base_question",
-                "variableName": "week2_q",
+                {"isAbout": "mm:Baseline/week2_items/base_question2",
+                "variableName": "week2_q2",
                 "isVis": "week === 2"
                 },
-                {"isAbout": "mm:Baseline/week2_items/base_reading",
-                "variableName": "week2_r",
+                {"isAbout": "mm:Baseline/week2_items/base_reading1",
+                "variableName": "week2_r1",
                 "isVis": "week === 2"
+                },
+
+                {"isAbout": "mm:Baseline/week3_items/base_question1",
+                "variableName": "week3_q1",
+                "isVis": "week === 3"
+                },
+                {"isAbout": "mm:Baseline/week3_items/base_question2",
+                "variableName": "week3_q2",
+                "isVis": "week === 3"
+                },
+                {"isAbout": "mm:Baseline/week3_items/base_reading1",
+                "variableName": "week3_r1",
+                "isVis": "week === 3"
                 }
+
+                {"isAbout": "mm:Baseline/week4_items/base_question1",
+                "variableName": "week4_q1",
+                "isVis": "week === 4"
+                },
+                {"isAbout": "mm:Baseline/week4_items/base_question2",
+                "variableName": "week4_q2",
+                "isVis": "week === 4"
+                },
+                {"isAbout": "mm:Baseline/week4_items/base_reading1",
+                "variableName": "week4_r1",
+                "isVis": "week === 4"
+                },
+
+                {"isAbout": "mm:Baseline/week5_items/base_question1",
+                "variableName": "week5_q1",
+                "isVis": "week === 5"
+                },
+                {"isAbout": "mm:Baseline/week5_items/base_question2",
+                "variableName": "week5_q2",
+                "isVis": "week === 5"
+                },
+                {"isAbout": "mm:Baseline/week5_items/base_reading1",
+                "variableName": "week5_r1",
+                "isVis": "week === 5"
+                }
+
         ],
         "order": [
-            "mm:Baseline/week1_items/base_freespeech",
-            "mm:Baseline/week1_items/base_question",
-            "mm:Baseline/week1_items/base_reading",
-            "mm:Baseline/week2_items/base_freespeech",
-            "mm:Baseline/week2_items/base_question",
-            "mm:Baseline/week2_items/base_reading"
+            "mm:Baseline/week1_items/base_freespeech1",
+            "mm:Baseline/week1_items/base_question1",
+            "mm:Baseline/week1_items/base_question2",
+            "mm:Baseline/week1_items/base_question3",
+            "mm:Baseline/week1_items/base_question4",
+            "mm:Baseline/week1_items/base_reading1",
+            "mm:Baseline/week1_items/base_reading2",
+
+            "mm:Baseline/week2_items/base_freespeech1",
+            "mm:Baseline/week2_items/base_question1",
+            "mm:Baseline/week2_items/base_question2",
+            "mm:Baseline/week2_items/base_reading1",
+            "mm:Baseline/week2_items/base_reading2",
+
+            "mm:Baseline/week3_items/base_freespeech1",
+            "mm:Baseline/week3_items/base_question1",
+            "mm:Baseline/week3_items/base_question2",
+            "mm:Baseline/week3_items/base_reading1",
+
+            "mm:Baseline/week4_items/base_freespeech1",
+            "mm:Baseline/week4_items/base_question1",
+            "mm:Baseline/week4_items/base_question2",
+            "mm:Baseline/week4_items/base_reading1",
+            "mm:Baseline/week4_items/base_reading2",
+            "mm:Baseline/week4_items/base_reading3",
+
+            "mm:Baseline/week5_items/base_freespeech1",
+            "mm:Baseline/week5_items/base_question1",
+            "mm:Baseline/week5_items/base_question2",
+            "mm:Baseline/week5_items/base_reading1",
+            "mm:Baseline/week5_items/base_reading2",
+            "mm:Baseline/week5_items/base_reading3"
         ],
         "inputType": "section",
         "shuffle": true

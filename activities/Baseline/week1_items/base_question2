@@ -1,13 +1,13 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "question_baseline_week1",
-    "prefLabel": "baseline Question week 1",
-    "description": "Week 1, Question, Baseline",
+    "@id": "question2_baseline_week1",
+    "prefLabel": "baseline Question 2 week 1",
+    "description": "Week 1, Question 2, Baseline",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "Placeholder for baseline question, week 1."},
+        "en": "What is the strangest dream you’ve ever had ?"},
     "ui": {
         "inputType": "audioRecord"
     },
