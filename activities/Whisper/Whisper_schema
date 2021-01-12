@@ -55,7 +55,7 @@
                 {"isAbout": "mm:Whisper/week3_items/whisper_reading1",
                 "variableName": "week3_r1",
                 "isVis": "week === 3"
-                }
+                },
 
                 {"isAbout": "mm:Whisper/week4_items/whisper_question1",
                 "variableName": "week4_q1",

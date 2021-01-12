@@ -55,7 +55,7 @@
                 {"isAbout": "mm:Raw/week3_items/raw_reading1",
                 "variableName": "week3_r1",
                 "isVis": "week === 3"
-                }
+                },
 
                 {"isAbout": "mm:Raw/week4_items/raw_question1",
                 "variableName": "week4_q1",

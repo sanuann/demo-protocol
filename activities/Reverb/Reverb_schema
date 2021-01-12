@@ -55,7 +55,7 @@
                 {"isAbout": "mm:Reverb/week3_items/reverb_reading1",
                 "variableName": "week3_r1",
                 "isVis": "week === 3"
-                }
+                },
 
                 {"isAbout": "mm:Reverb/week4_items/reverb_question1",
                 "variableName": "week4_q1",

@@ -55,7 +55,7 @@
                 {"isAbout": "mm:Harmonize/week3_items/harmonize_reading1",
                 "variableName": "week3_r1",
                 "isVis": "week === 3"
-                }
+                },
 
                 {"isAbout": "mm:Harmonize/week4_items/harmonize_question1",
                 "variableName": "week4_q1",
