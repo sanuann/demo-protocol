@@ -16,7 +16,10 @@
     "ui": {
         "addProperties": [
 
-
+                {"isAbout": "mm:Baseline/week1_items/base_freespeech1",
+                "variableName": "week1_f1",
+                "isVis": "week === 1"
+                },
                 {"isAbout": "mm:Baseline/week1_items/base_question1",
                 "variableName": "week1_q1",
                 "isVis": "week === 1"
@@ -25,12 +28,28 @@
                 "variableName": "week1_q2",
                 "isVis": "week === 1"
                 },
+                {"isAbout": "mm:Baseline/week1_items/base_question3",
+                "variableName": "week1_q3",
+                "isVis": "week === 1"
+                },
+                {"isAbout": "mm:Baseline/week1_items/base_question4",
+                "variableName": "week1_q4",
+                "isVis": "week === 1"
+                },
                 {"isAbout": "mm:Baseline/week1_items/base_reading1",
                 "variableName": "week1_r1",
                 "isVis": "week === 1"
                 },
+                {"isAbout": "mm:Baseline/week1_items/base_reading2",
+                "variableName": "week1_r2",
+                "isVis": "week === 1"
+                },
 
 
+                {"isAbout": "mm:Baseline/week2_items/base_freespeech1",
+                "variableName": "week2_f1",
+                "isVis": "week === 2"
+                },
                 {"isAbout": "mm:Baseline/week2_items/base_question1",
                 "variableName": "week2_q1",
                 "isVis": "week === 2"
@@ -43,7 +62,15 @@
                 "variableName": "week2_r1",
                 "isVis": "week === 2"
                 },
+                {"isAbout": "mm:Baseline/week2_items/base_reading2",
+                "variableName": "week2_r2",
+                "isVis": "week === 2"
+                },
 
+                {"isAbout": "mm:Baseline/week3_items/base_freespeech1",
+                "variableName": "week3_f1",
+                "isVis": "week === 3"
+                },
                 {"isAbout": "mm:Baseline/week3_items/base_question1",
                 "variableName": "week3_q1",
                 "isVis": "week === 3"
@@ -55,8 +82,12 @@
                 {"isAbout": "mm:Baseline/week3_items/base_reading1",
                 "variableName": "week3_r1",
                 "isVis": "week === 3"
-                }
+                },
 
+                {"isAbout": "mm:Baseline/week4_items/base_freespeech1",
+                "variableName": "week4_f1",
+                "isVis": "week === 4"
+                },
                 {"isAbout": "mm:Baseline/week4_items/base_question1",
                 "variableName": "week4_q1",
                 "isVis": "week === 4"
@@ -69,7 +100,19 @@
                 "variableName": "week4_r1",
                 "isVis": "week === 4"
                 },
+                {"isAbout": "mm:Baseline/week4_items/base_reading2",
+                "variableName": "week4_r2",
+                "isVis": "week === 4"
+                },
+                {"isAbout": "mm:Baseline/week4_items/base_reading3",
+                "variableName": "week4_r3",
+                "isVis": "week === 4"
+                },
 
+                {"isAbout": "mm:Baseline/week5_items/base_freespeech1",
+                "variableName": "week5_f1",
+                "isVis": "week === 5"
+                },
                 {"isAbout": "mm:Baseline/week5_items/base_question1",
                 "variableName": "week5_q1",
                 "isVis": "week === 5"
@@ -80,6 +123,14 @@
                 },
                 {"isAbout": "mm:Baseline/week5_items/base_reading1",
                 "variableName": "week5_r1",
+                "isVis": "week === 5"
+                },
+                {"isAbout": "mm:Baseline/week5_items/base_reading2",
+                "variableName": "week5_r2",
+                "isVis": "week === 5"
+                },
+                {"isAbout": "mm:Baseline/week5_items/base_reading3",
+                "variableName": "week5_r3",
                 "isVis": "week === 5"
                 }
 
