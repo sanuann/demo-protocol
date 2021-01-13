@@ -94,6 +94,14 @@
                 }
         ],
         "order": [
+            "./items/speechTherapy1",
+            "./items/speechTherapy2",
+            "./items/monologue",
+            "./items/dreams",
+            "./items/anticipation",
+            "./items/changeWords",
+            "./items/relatives",
+            "./items/increaseFluency",
             "./items/age",
             "./items/gender",
             "./items/language",
@@ -105,15 +113,7 @@
             "./items/diagnosed2",
             "./items/stutter",
             "./items/startStuttering",
-            "./items/fluency",
-            "./items/speechTherapy1",
-            "./items/speechTherapy2",
-            "./items/monologue",
-            "./items/dreams",
-            "./items/anticipation",
-            "./items/changeWords",
-            "./items/relatives",
-            "./items/increaseFluency"
+            "./items/fluency"
         ],
         "shuffle": false
     }
