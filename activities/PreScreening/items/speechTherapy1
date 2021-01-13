@@ -1,0 +1,34 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "speech therapy1",
+    "prefLabel": "Speech Therapy 1",
+    "description": "schema for speech therapy 1 of participant",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "Have you ever been, or are you currently going to speech therapy ?",
+        "es": ""
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+
+    "responseOptions": {
+        "multipleChoice": false,
+        "choices": [
+            {
+                "value": 1,
+                "name": "Yes currently"
+            },
+            {
+                "value": 2,
+                "name": "Yes in the past but not anymore"
+            },
+            {
+                "value": 3,
+                "name": "Never"
+            }
+        ]
+    }
+}
