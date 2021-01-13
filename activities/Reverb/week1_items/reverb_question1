@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "question1_reverb_week1",
+    "prefLabel": "reverb Question 1 week 1",
+    "description": "Week 1, Question 1, Reverb",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "When is the most interesting period in history ? Why ?"},
+    "ui": {
+        "inputType": "audioRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 180000,
+        "multipleChoice": false
+    }
+}

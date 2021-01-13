@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "reading1_reverb_week4",
+    "prefLabel": "Reading 1 reverb week 4",
+    "description": "Week 4, Reading 1, Reverb",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "preamble": "Please read the following passage out loud.",
+    "question": "The desk that had tied him down was gone and his one thought was for quail. He had been on the trail since dawn, but not one bird had crossed his path. It seemed as though five years without hunting had made him lose touch with all the small signs that he once knew--signs that would tell for sure if an animal was near or not. Once he thought he saw a bird, but it was just a large leaf that had failed to drop to the ground during the winter.",
+    "ui": {
+        "inputType": "audioPassageRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 150000
+    }
+}

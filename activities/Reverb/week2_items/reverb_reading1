@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "reading1_reverb_week2",
+    "prefLabel": "Reading 1 reverb week 2",
+    "description": "Week 2, Reading 1, Reverb",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "preamble": "Please read the following passage out loud.",
+    "question": "The sky stays light quite late as far north as that, but I knew it would be a cold night. The car seat was piled high with stuff, but it would have to stay there for the night. It was too far to go to take it all out now. Food was the next thing. John had lit the stove, so I cooked up some hash and beans, which was what was in the cans that I could reach with least work. ",
+    "ui": {
+        "inputType": "audioPassageRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 150000
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+        {
+            "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"
+        }
+    ],
+    "@type": "reproschema:Protocol",
+    "@id": "MumbleMelody_schema",
+    "prefLabel": {
+        "en": "Stuttering Protocol",
+        "es": "Protocolo de demostración"
+    },
+    "description": "Stuttering Protocol",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "landingPage": {
+        "@id": "README.md",
+        "@language": "en"
+    },
+    "image": "mit_voice_pilot_applet_image.svg?sanitize=true",
+    "ui": {
+        "addProperties": [
+	    {"isAbout": "../activities/PreScreening/PreScreening_schema",
+            "variableName": "PreScreening_schema",
+            "prefLabel": {"en": "Pre-Testing Questionnaire"}
+            },
+            {"isAbout": "../activities/Baseline/Baseline_schema",
+            "variableName": "Baseline_schema",
+            "prefLabel": {"en": "Baseline Voice Task"}
+            },
+            {"isAbout": "../activities/VoiceTask/VoiceTask_schema",
+            "variableName": "VoiceTask_schema",
+            "prefLabel": {"en": "Voice"}
+            },
+            {"isAbout": "../activities/PostScreening/PostScreening_schema",
+            "variableName": "PostScreening_schema",
+            "prefLabel": {"en": "Post-Testing Questionnaire"}
+            },
+            {"isAbout": "rl:ThankYou/ThankYou_schema",
+            "variableName": "ThankYou_schema",
+            "prefLabel": {"en": "ThankYou"}
+            }
+        ],
+        "order": [
+            "../activities/PreScreening/PreScreening_schema",
+            "../activities/Baseline/Baseline_schema",
+            "../activities/VoiceTask/VoiceTask_schema",
+            "../activities/PostScreening/PostScreening_schema",
+            "rl:ThankYou/ThankYou_schema"
+        ],
+        "shuffle": false,
+        "allow": ["reproschema:AutoAdvance",
+                  "reproschema:AllowExport"]
+    }
+}

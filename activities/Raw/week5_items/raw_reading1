@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "reading1_raw_week5",
+    "prefLabel": "Reading 1 raw week 5",
+    "description": "Week 5, Reading 1, Raw",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "preamble": "Please read the following passage out loud.",
+    "question": "Please call Stella. Ask her to bring these things with her from the store: Six spoons of fresh snow peas, five thick slabs of blue cheese, and maybe a snack for her brother Bob. We also need a small plastic snake and a big toy frog for the kids. She can scoop these things into three red bags, and we will go meet her Wednesday at the train station.",
+    "ui": {
+        "inputType": "audioPassageRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 150000
+    }
+}

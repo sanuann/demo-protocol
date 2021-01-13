@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "question3_baseline_week1",
+    "prefLabel": "baseline Question 3 week 1",
+    "description": "Week 1, Question 3, Baseline",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "What habit do you have now that you wish you started much earlier ?"},
+    "ui": {
+        "inputType": "audioRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 180000,
+        "multipleChoice": false
+    }
+}

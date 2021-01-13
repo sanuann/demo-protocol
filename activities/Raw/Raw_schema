@@ -1,0 +1,111 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+        {
+               
+            "mm": "https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/master/activities/",
+            "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"       
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "Raw_schema",
+    "prefLabel": "raw voice tasks",
+    "description": "Raw Voice Tasks",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "preamble": "On your phone, open the MumbleMelody App and switch off the mode (through the \"OFF\" button). Then proceed to the various tasks in this section.",
+    "ui": {
+        "addProperties": [
+
+
+                {"isAbout": "mm:Raw/week1_items/raw_question1",
+                "variableName": "week1_q1",
+                "isVis": "week === 1"
+                },
+                {"isAbout": "mm:Raw/week1_items/raw_question2",
+                "variableName": "week1_q2",
+                "isVis": "week === 1"
+                },
+                {"isAbout": "mm:Raw/week1_items/raw_reading1",
+                "variableName": "week1_r1",
+                "isVis": "week === 1"
+                },
+
+
+                {"isAbout": "mm:Raw/week2_items/raw_question1",
+                "variableName": "week2_q1",
+                "isVis": "week === 2"
+                },
+                {"isAbout": "mm:Raw/week2_items/raw_question2",
+                "variableName": "week2_q2",
+                "isVis": "week === 2"
+                },
+                {"isAbout": "mm:Raw/week2_items/raw_reading1",
+                "variableName": "week2_r1",
+                "isVis": "week === 2"
+                },
+
+                {"isAbout": "mm:Raw/week3_items/raw_question1",
+                "variableName": "week3_q1",
+                "isVis": "week === 3"
+                },
+                {"isAbout": "mm:Raw/week3_items/raw_question2",
+                "variableName": "week3_q2",
+                "isVis": "week === 3"
+                },
+                {"isAbout": "mm:Raw/week3_items/raw_reading1",
+                "variableName": "week3_r1",
+                "isVis": "week === 3"
+                },
+
+                {"isAbout": "mm:Raw/week4_items/raw_question1",
+                "variableName": "week4_q1",
+                "isVis": "week === 4"
+                },
+                {"isAbout": "mm:Raw/week4_items/raw_question2",
+                "variableName": "week4_q2",
+                "isVis": "week === 4"
+                },
+                {"isAbout": "mm:Raw/week4_items/raw_reading1",
+                "variableName": "week4_r1",
+                "isVis": "week === 4"
+                },
+
+                {"isAbout": "mm:Raw/week5_items/raw_question1",
+                "variableName": "week5_q1",
+                "isVis": "week === 5"
+                },
+                {"isAbout": "mm:Raw/week5_items/raw_question2",
+                "variableName": "week5_q2",
+                "isVis": "week === 5"
+                },
+                {"isAbout": "mm:Raw/week5_items/raw_reading1",
+                "variableName": "week5_r1",
+                "isVis": "week === 5"
+                }
+
+        ],
+        "order": [
+            "mm:Raw/week1_items/raw_question1",
+            "mm:Raw/week1_items/raw_question2",
+            "mm:Raw/week1_items/raw_reading1",
+
+            "mm:Raw/week2_items/raw_question1",
+            "mm:Raw/week2_items/raw_question2",
+            "mm:Raw/week2_items/raw_reading1",
+
+            "mm:Raw/week3_items/raw_question1",
+            "mm:Raw/week3_items/raw_question2",
+            "mm:Raw/week3_items/raw_reading1",
+
+            "mm:Raw/week4_items/raw_question1",
+            "mm:Raw/week4_items/raw_question2",
+            "mm:Raw/week4_items/raw_reading1",
+
+            "mm:Raw/week5_items/raw_question1",
+            "mm:Raw/week5_items/raw_question2",
+            "mm:Raw/week5_items/raw_reading1"
+        ],
+        "inputType": "section",
+        "shuffle": false
+    }
+}

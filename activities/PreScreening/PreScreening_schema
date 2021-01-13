@@ -1,0 +1,120 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+        {
+            "rl": "https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/master/activities/"
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "PreScreening_schema",
+    "prefLabel": "Pre-Testing Questionnaire",
+    "description": "",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "ui": {
+        "addProperties": [
+                {"isAbout": "./items/age",
+                "variableName": "age",
+                "isVis": true
+                },
+                {"isAbout": "./items/gender",
+                "variableName": "gender",
+                "isVis": true
+                },
+                {"isAbout": "./items/language",
+                "variableName": "language",
+                "isVis": true
+                },
+                {"isAbout": "./items/education",
+                "variableName": "education",
+                "isVis": true
+                },
+                {"isAbout": "./items/household",
+                "variableName": "household",
+                "isVis": true
+                },
+                {"isAbout": "./items/handeness1",
+                "variableName": "handeness1",
+                "isVis": true
+                },
+                {"isAbout": "./items/handeness2",
+                "variableName": "handeness2",
+                "isVis": "handeness1 === 3"
+                },
+                {"isAbout": "./items/diagnosed1",
+                "variableName": "diagnosed1",
+                "isVis": true
+                },
+                {"isAbout": "./items/diagnosed2",
+                "variableName": "diagnosed2",
+                "isVis": true
+                },
+                {"isAbout": "./items/stutter",
+                "variableName": "stutter",
+                "isVis": true
+                },
+                {"isAbout": "./items/startStuttering",
+                "variableName": "startStuttering",
+                "isVis": true
+                },
+                {"isAbout": "./items/fluency",
+                "variableName": "fluency",
+                "isVis": true
+                },
+                {"isAbout": "./items/speechTherapy1",
+                "variableName": "speechTherapy1",
+                "isVis": true
+                },
+                {"isAbout": "./items/speechTherapy2",
+                "variableName": "speechTherapy2",
+                "isVis": "speechTherapy1 < 3"
+                },
+                {"isAbout": "./items/dreams",
+                "variableName": "dreams",
+                "isVis": true
+                },
+                {"isAbout": "./items/monologue",
+                "variableName": "monologue",
+                "isVis": true
+                },
+                {"isAbout": "./items/anticipation",
+                "variableName": "anticipation",
+                "isVis": true
+                },
+                {"isAbout": "./items/changeWords",
+                "variableName": "changeWords",
+                "isVis": true
+                },
+                {"isAbout": "./items/relatives",
+                "variableName": "relatives",
+                "isVis": true
+                },
+                {"isAbout": "./items/increaseFluency",
+                "variableName": "increaseFluency",
+                "isVis": true
+                }
+        ],
+        "order": [
+            "./items/speechTherapy1",
+            "./items/speechTherapy2",
+            "./items/monologue",
+            "./items/dreams",
+            "./items/anticipation",
+            "./items/changeWords",
+            "./items/relatives",
+            "./items/increaseFluency",
+            "./items/age",
+            "./items/gender",
+            "./items/language",
+            "./items/education",
+            "./items/household",
+            "./items/handeness1",
+            "./items/handeness2",
+            "./items/diagnosed1",
+            "./items/diagnosed2",
+            "./items/stutter",
+            "./items/startStuttering",
+            "./items/fluency"
+        ],
+        "shuffle": false
+    }
+}

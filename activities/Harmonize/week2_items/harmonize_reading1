@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "reading1_harmonize_week2",
+    "prefLabel": "Reading 1 harmonize week 2",
+    "description": "Week 2, Reading 1, Harmonize",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "preamble": "Please read the following passage out loud.",
+    "question": "We had passed such a place on the road, and had stocked up with some things that can't be bought in a town. Things like home baked bread; and real cheese made from cow's milk; jam with real fruit in it; and fresh milk with rich deep cream on top. We shall not have a chance to buy these in the cold months that are to come.",
+    "ui": {
+        "inputType": "audioPassageRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 150000
+    }
+}

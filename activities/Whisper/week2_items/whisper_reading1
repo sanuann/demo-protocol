@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "reading1_whisper_week2",
+    "prefLabel": "Reading 1 whisper week 2",
+    "description": "Week 2, Reading 1, Whisper",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "preamble": "Please read the following passage out loud.",
+    "question": "My box with most of the food was deep in the car, and it was too dark now to dig my way down to it. When served hot, hash and beans taste quite qood if it's been a long time since you last ate. We had some bread, of a sort that you find in small stores far from the towns, where the new ways to make bread, and the new types of flour have not yet reached.",
+    "ui": {
+        "inputType": "audioPassageRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 150000
+    }
+}

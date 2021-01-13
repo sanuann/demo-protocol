@@ -1,0 +1,111 @@
+{
+    "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+        {
+               
+            "mm": "https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/master/activities/",
+            "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"       
+        }
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "Reverb_schema",
+    "prefLabel": "reverb voice tasks",
+    "description": "Reverb Voice Tasks",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "preamble": "On your phone, open the MumbleMelody App and please select the mode \"REVERB\". Then proceed to the various tasks in this section.",
+    "ui": {
+        "addProperties": [
+
+
+                {"isAbout": "mm:Reverb/week1_items/reverb_question1",
+                "variableName": "week1_q1",
+                "isVis": "week === 1"
+                },
+                {"isAbout": "mm:Reverb/week1_items/reverb_question2",
+                "variableName": "week1_q2",
+                "isVis": "week === 1"
+                },
+                {"isAbout": "mm:Reverb/week1_items/reverb_reading1",
+                "variableName": "week1_r1",
+                "isVis": "week === 1"
+                },
+
+
+                {"isAbout": "mm:Reverb/week2_items/reverb_question1",
+                "variableName": "week2_q1",
+                "isVis": "week === 2"
+                },
+                {"isAbout": "mm:Reverb/week2_items/reverb_question2",
+                "variableName": "week2_q2",
+                "isVis": "week === 2"
+                },
+                {"isAbout": "mm:Reverb/week2_items/reverb_reading1",
+                "variableName": "week2_r1",
+                "isVis": "week === 2"
+                },
+
+                {"isAbout": "mm:Reverb/week3_items/reverb_question1",
+                "variableName": "week3_q1",
+                "isVis": "week === 3"
+                },
+                {"isAbout": "mm:Reverb/week3_items/reverb_question2",
+                "variableName": "week3_q2",
+                "isVis": "week === 3"
+                },
+                {"isAbout": "mm:Reverb/week3_items/reverb_reading1",
+                "variableName": "week3_r1",
+                "isVis": "week === 3"
+                },
+
+                {"isAbout": "mm:Reverb/week4_items/reverb_question1",
+                "variableName": "week4_q1",
+                "isVis": "week === 4"
+                },
+                {"isAbout": "mm:Reverb/week4_items/reverb_question2",
+                "variableName": "week4_q2",
+                "isVis": "week === 4"
+                },
+                {"isAbout": "mm:Reverb/week4_items/reverb_reading1",
+                "variableName": "week4_r1",
+                "isVis": "week === 4"
+                },
+
+                {"isAbout": "mm:Reverb/week5_items/reverb_question1",
+                "variableName": "week5_q1",
+                "isVis": "week === 5"
+                },
+                {"isAbout": "mm:Reverb/week5_items/reverb_question2",
+                "variableName": "week5_q2",
+                "isVis": "week === 5"
+                },
+                {"isAbout": "mm:Reverb/week5_items/reverb_reading1",
+                "variableName": "week5_r1",
+                "isVis": "week === 5"
+                }
+
+        ],
+        "order": [
+            "mm:Reverb/week1_items/reverb_question1",
+            "mm:Reverb/week1_items/reverb_question2",
+            "mm:Reverb/week1_items/reverb_reading1",
+
+            "mm:Reverb/week2_items/reverb_question1",
+            "mm:Reverb/week2_items/reverb_question2",
+            "mm:Reverb/week2_items/reverb_reading1",
+
+            "mm:Reverb/week3_items/reverb_question1",
+            "mm:Reverb/week3_items/reverb_question2",
+            "mm:Reverb/week3_items/reverb_reading1",
+
+            "mm:Reverb/week4_items/reverb_question1",
+            "mm:Reverb/week4_items/reverb_question2",
+            "mm:Reverb/week4_items/reverb_reading1",
+
+            "mm:Reverb/week5_items/reverb_question1",
+            "mm:Reverb/week5_items/reverb_question2",
+            "mm:Reverb/week5_items/reverb_reading1"
+        ],
+        "inputType": "section",
+        "shuffle": false
+    }
+}

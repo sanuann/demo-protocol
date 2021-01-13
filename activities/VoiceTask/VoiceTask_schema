@@ -1,7 +1,9 @@
 {
     "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
         {
-            "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"
+               
+            "mm": "https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/master/activities/",
+            "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"       
         }
     ],
     "@type": "reproschema:Activity",
@@ -13,55 +15,30 @@
     "preamble": "For each task, you should hit the record button before speaking and then stop once you are done speaking. You may hit play to hear what was recorded.",
     "ui": {
         "addProperties": [
-                {"isAbout": "rl:VoiceTask/items/say_ah",
-                "variableName": "say_ah",
+                {"isAbout": "mm:Harmonize/Harmonize_schema",
+                "variableName": "harmonize",
                 "isVis": true
                 },
-                {"isAbout": "rl:VoiceTask/items/pataka",
-                "variableName": "pataka",
+                {"isAbout": "mm:Reverb/Reverb_schema",
+                "variableName": "reverb",
                 "isVis": true
                 },
-                {"isAbout": "rl:VoiceTask/items/guided_speech",
-                "variableName": "guided_speech",
+                {"isAbout": "mm:Whisper/Whisper_schema",
+                "variableName": "whisper",
                 "isVis": true
                 },
-                {"isAbout": "rl:VoiceTask/items/free_speech_movie",
-                "variableName": "free_speech_movie",
+                {"isAbout": "mm:Raw/Raw_schema",
+                "variableName": "raw",
                 "isVis": true
-                },
-                {"isAbout": "rl:VoiceTask/items/rainbow_passage",
-                "variableName": "rainbow_passage",
-                "isVis": true
-                },
-                {"isAbout": "rl:VoiceTask/multipart_voice_schema",
-                "variableName": "multipart_voice",
-                "isVis": true
-                },
-                {"isAbout": "rl:VoiceTask/items/feedback_question",
-                "variableName": "feedback_question",
-                "isVis": true
-                },
-                {"isAbout": "rl:VoiceTask/items/feedback_yes",
-                "variableName": "feedback_yes",
-                "isVis": "feedback_question === 1"
-                },
-                {"isAbout": "rl:VoiceTask/items/feedback_brief",
-                "variableName": "feedback_brief",
-                "isVis": "feedback_question === 1 && feedback_yes !== 7"
                 }
-
         ],
         "order": [
-            "rl:VoiceTask/items/say_ah",
-            "rl:VoiceTask/items/pataka",
-            "rl:VoiceTask/items/guided_speech",
-            "rl:VoiceTask/items/free_speech_movie",
-            "rl:VoiceTask/items/rainbow_passage",
-            "rl:VoiceTask/multipart_voice_schema",
-            "rl:VoiceTask/items/feedback_question",
-            "rl:VoiceTask/items/feedback_yes",
-            "rl:VoiceTask/items/feedback_brief"
+            "mm:Harmonize/Harmonize_schema",
+            "mm:Reverb/Reverb",
+            "mm:Whisper/Whisper_schema",
+            "mm:Raw/Raw_schema"
         ],
-        "shuffle": true
+        "inputType": "section",
+        "shuffle": false
     }
 }

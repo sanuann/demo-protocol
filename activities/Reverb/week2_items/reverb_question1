@@ -1,0 +1,20 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "question1_reverb_week2",
+    "prefLabel": "reverb Question 1 week 2",
+    "description": "Week 2, Question 1, Reverb",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "What are your favorite public places to be in ?"},
+    "ui": {
+        "inputType": "audioRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 180000,
+        "multipleChoice": false
+    }
+}

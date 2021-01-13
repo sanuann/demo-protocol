@@ -1,0 +1,22 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "freespeech1_baseline_week4",
+    "prefLabel": "Free 1 baseline week 4",
+    "description": "Week 4, Freespeech 1, Baseline",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "Please tell us about something memorable that happened to you this week.",
+        "es": ""
+    },
+    "ui": {
+        "inputType": "audioRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 180000,
+        "multipleChoice": false
+    }
+}

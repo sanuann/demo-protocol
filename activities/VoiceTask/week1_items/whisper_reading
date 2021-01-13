@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "reading_whisper_week1",
+    "prefLabel": "Reading whisper week 1",
+    "description": "Week 1, Reading, Whisper Mode",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "preamble": "Please hit record, and then read the passage. If you are doing this on a phone, you may need to scroll to the end of the passage. After you are done reading, hit Stop to end recording.",
+    "question": "Placeholder for whisper reading, week 1.",
+    "ui": {
+        "inputType": "audioPassageRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 150000
+    }
+}

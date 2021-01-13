@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "reading2_baseline_week5",
+    "prefLabel": "Reading 2 baseline week 5",
+    "description": "Week 5, Reading 2, Baseline",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "preamble": "Please read the following passage out loud.",
+    "question": "Tom stopped near a stream to rest. Soon after he had laid down his gun, he heard the sound of wings from across the stream, and five large birds came out of the brush. They flew to the edge of the stream unaware of the hunter. Tom placed his hand on his gun quietly. Slowly he raised it to his shoulder and took aim. The seconds ticked off like hours, but still the birds drank. Quick shots rang out. The years of waiting seemed to disappear with the successful culmination of the hunt.",
+    "ui": {
+        "inputType": "audioPassageRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 150000
+    }
+}

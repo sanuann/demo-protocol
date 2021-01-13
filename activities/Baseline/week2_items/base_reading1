@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "reading1_baseline_week2",
+    "prefLabel": "Reading 1 baseline week 2",
+    "description": "Week 2, Reading 1, Baseline",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "preamble": "Please read the following passage out loud.",
+    "question": "John planted a seed in his garden. He dug into the sod while humming a tune from the radio. The song was a tad off key, but John persisted because he was in a keyed up frame of mind from the long work week. As he worked, John’s buddy Todd walked by. Todd was thought to be somewhat of a cad by most, but was known for his stories. He spun a tale about an eccentric woman who sat on her stoop every night and fed a cod and a shad to the pigeons that cooed from above.",
+    "ui": {
+        "inputType": "audioPassageRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 150000
+    }
+}

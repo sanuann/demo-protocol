@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "reading1_baseline_week5",
+    "prefLabel": "Reading 1 baseline week 5",
+    "description": "Week 5, Reading 1, Baseline",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "preamble": "Please read the following passage out loud.",
+    "question": "In late fall and early spring the short rays of the sun call a true son of the out-of-doors back to the places of his childhood. Tom Brooks was such a man. Each year at these times his desk seemed like a stone whose weight made him wish for the life he knew as a boy. In the five years since leaving college he had not revisited his old haunts before. But this March Tom found himself by a small stream with a gun at rest in the crook of his arm.",
+    "ui": {
+        "inputType": "audioPassageRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 150000
+    }
+}

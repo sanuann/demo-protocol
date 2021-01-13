@@ -1,0 +1,42 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "household composition",
+    "prefLabel": "Household Composition",
+    "description": "schema for household composition of participant",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "Household Composition",
+        "es": ""
+    },
+    "ui": {
+        "inputType": "radio"
+    },
+
+    "responseOptions": {
+        "multipleChoice": false,
+        "choices": [
+            {
+                "value": 1,
+                "name": "Single "
+            },
+            {
+                "value": 2,
+                "name": "Married"
+            },
+            {
+                "value": 3,
+                "name": "Widowed"
+            },
+            {
+                "value": 4,
+                "name": "Divorced"
+            },
+            {
+                "value": 5,
+                "name": "Separated"
+            }
+        ]
+    }
+}

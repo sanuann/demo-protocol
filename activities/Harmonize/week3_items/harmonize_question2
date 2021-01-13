@@ -1,0 +1,21 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "question2_harmonize_week3",
+    "prefLabel": "harmonize Question 2 week 3",
+    "description": "Week 3, Question 2, Harmonize",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": {
+        "en": "What was something a teacher did that had a strong impact on you ?"?
+"},
+    "ui": {
+        "inputType": "audioRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 180000,
+        "multipleChoice": false
+    }
+}
