@@ -1,0 +1,40 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "dreams",
+    "prefLabel": "Dreams",
+    "description": "schema for dreams of participant",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": "Do you stutter in your dreams ?",
+    "ui": {
+        "inputType": "slider"
+    },    
+    "responseOptions": {
+        "valueType": "xsd:integer",
+        "minValue": 0,
+        "maxValue": 4,
+        "choices": [
+            {
+                "name": "Never",
+                "value": 0
+            },
+            {
+                "value": 1
+            },
+            {
+                "value": 2
+            },
+            {
+                "value": 3
+            },
+            {
+                "value": 4
+            }
+            {
+                "name": "Always",
+                "value": 5
+            }
+        ]
+    }
+}

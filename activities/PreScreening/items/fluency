@@ -1,0 +1,18 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "fluency",
+    "prefLabel": "Fluency",
+    "description": "schema for fluency of participant",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": "How would you rate your fluency today ?",
+    "ui": {
+        "inputType": "selectLanguage"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "multipleChoice": true,
+        "choices": "https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/master/activities/PreScreening/valueConstraints/fluency.json"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "startStuttering",
+    "prefLabel": "Start Stuttering",
+    "description": "schema for start stutering of participant",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "question": "To the best of your knowledge, when did you start stuttering ?",
+    "ui": {
+        "inputType": "selectLanguage"
+    },
+    "responseOptions": {
+        "valueType": "xsd:string",
+        "multipleChoice": true,
+        "choices": "https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/master/activities/PreScreening/valueConstraints/stuttering.json"
+    }
+}

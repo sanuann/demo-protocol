@@ -12,7 +12,7 @@
     "description": "Harmonize Voice Tasks",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "preamble": "Harmonize Voice Capture",
+    "preamble": "On your phone, open the MumbleMelody App and please select the mode \"HARMONIZE\". Then proceed to the various tasks in this section.",
     "ui": {
         "addProperties": [
 

@@ -47,18 +47,73 @@
                 {"isAbout": "./items/diagnosed2",
                 "variableName": "diagnosed2",
                 "isVis": true
+                },
+                {"isAbout": "./items/stutter",
+                "variableName": "stutter",
+                "isVis": true
+                },
+                {"isAbout": "./items/startStuttering",
+                "variableName": "startStuttering",
+                "isVis": true
+                },
+                {"isAbout": "./items/fluency",
+                "variableName": "fluency",
+                "isVis": true
+                },
+                {"isAbout": "./items/speechTherapy1",
+                "variableName": "speechTherapy1",
+                "isVis": true
+                },
+                {"isAbout": "./items/speechTherapy2",
+                "variableName": "speechTherapy2",
+                "isVis": "speechTherapy1 < 3"
+                },
+                {"isAbout": "./items/dreams",
+                "variableName": "dreams",
+                "isVis": true
+                },
+                {"isAbout": "./items/monologue",
+                "variableName": "monologue",
+                "isVis": true
+                },
+                {"isAbout": "./items/anticipation",
+                "variableName": "anticipation",
+                "isVis": true
+                },
+                {"isAbout": "./items/changeWords",
+                "variableName": "changeWords",
+                "isVis": true
+                },
+                {"isAbout": "./items/relatives",
+                "variableName": "relatives",
+                "isVis": true
+                },
+                {"isAbout": "./items/increaseFluency",
+                "variableName": "increaseFluency",
+                "isVis": true
                 }
         ],
         "order": [
-            "./items/diagnosed1",
-            "./items/diagnosed2",
             "./items/age",
             "./items/gender",
             "./items/language",
             "./items/education",
             "./items/household",
             "./items/handeness1",
-            "./items/handeness2"
+            "./items/handeness2",
+            "./items/diagnosed1",
+            "./items/diagnosed2",
+            "./items/stutter",
+            "./items/startStuttering",
+            "./items/fluency",
+            "./items/speechTherapy1",
+            "./items/speechTherapy2",
+            "./items/monologue",
+            "./items/dreams",
+            "./items/anticipation",
+            "./items/changeWords",
+            "./items/relatives",
+            "./items/increaseFluency"
         ],
         "shuffle": false
     }

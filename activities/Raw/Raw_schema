@@ -12,7 +12,7 @@
     "description": "Raw Voice Tasks",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "preamble": "Raw Voice Capture",
+    "preamble": "On your phone, open the MumbleMelody App and switch off the mode (through the \"OFF\" button). Then proceed to the various tasks in this section.",
     "ui": {
         "addProperties": [
 
