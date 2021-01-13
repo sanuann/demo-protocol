@@ -19,7 +19,7 @@
                 "variableName": "harmonize",
                 "isVis": true
                 },
-                {"isAbout": "mm:/Reverb/Reverb",
+                {"isAbout": "mm:/Reverb/Reverb_schema",
                 "variableName": "reverb",
                 "isVis": true
                 },
