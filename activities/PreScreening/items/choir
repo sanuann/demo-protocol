@@ -1,13 +1,13 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "dreams",
-    "prefLabel": "Dreams",
-    "description": "schema for dreams of participant",
+    "@id": "choir",
+    "prefLabel": "Choir",
+    "description": "schema for choir of participant",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "Do you stutter in your dreams ?",
+        "en": "Do you sing or play a musical instrument ?",
         "es": ""
     },
     "ui": {
@@ -19,23 +19,11 @@
         "choices": [
             {
                 "value": 1,
-                "name": "Never"
+                "name": "Yes"
             },
             {
                 "value": 2,
-                "name": "Rarely"
-            },
-            {
-                "value": 3,
-                "name": "Occasionally"
-            },
-            {
-                "value": 4,
-                "name": "Often"
-            },
-            {
-                "value": 5,
-                "name": "Always"
+                "name": "No"
             }
         ]
     }

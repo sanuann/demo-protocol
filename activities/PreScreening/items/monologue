@@ -6,34 +6,36 @@
     "description": "schema for monologue of participant",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "Does your inner voice/monologue stutter ?",
+    "question": {
+        "en": "Does your inner voice/monologue stutter ?",
+        "es": ""
+    },
     "ui": {
-        "inputType": "slider"
-    },    
+        "inputType": "radio"
+    },
+
     "responseOptions": {
-        "valueType": "xsd:integer",
-        "minValue": 0,
-        "maxValue": 5,
+        "multipleChoice": false,
         "choices": [
             {
-                "name": "Never",
-                "value": 0
+                "value": 1,
+                "name": "Never"
             },
             {
-                "value": 1
+                "value": 2,
+                "name": "Rarely"
             },
             {
-                "value": 2
+                "value": 3,
+                "name": "Occasionally"
             },
             {
-                "value": 3
+                "value": 4,
+                "name": "Often"
             },
             {
-                "value": 4
-            },
-            {
-                "name": "Always",
-                "value": 5
+                "value": 5,
+                "name": "Always"
             }
         ]
     }
