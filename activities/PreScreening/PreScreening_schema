@@ -98,10 +98,17 @@
                 "isVis": true
                 },
 
-
+                {"isAbout": "./items/singOrPlay",
+                "variableName": "singOrPlay",
+                "isVis": true
+                },
                 {"isAbout": "./items/instrument",
                 "variableName": "instrument",
-                "isVis": true
+                "isVis": "singOrPlay === 1"
+                },
+                {"isAbout": "./items/whichInstrument",
+                "variableName": "whichInstrument",
+                "isVis": "instrument === 7"
                 },
                 {"isAbout": "./items/choir",
                 "variableName": "choir",
@@ -150,7 +157,9 @@
             "./items/changeWords",
             "./items/relatives",
             "./items/increaseFluency",
+            "./items/singOrPlay",
             "./items/instrument",
+            "./items/whichInstrument",
             "./items/choir",
             "./items/listenMusic",
             "./items/singPublic",
