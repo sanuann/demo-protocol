@@ -102,6 +102,10 @@
                 "variableName": "singOrPlay",
                 "isVis": true
                 },
+                {"isAbout": "./items/musicianship",
+                "variableName": "musicianship",
+                "isVis": "singOrPlay === 1"
+                },
                 {"isAbout": "./items/instrument",
                 "variableName": "instrument",
                 "isVis": "singOrPlay === 1"
@@ -158,6 +162,7 @@
             "./items/relatives",
             "./items/increaseFluency",
             "./items/singOrPlay",
+            "./items/musicianship",
             "./items/instrument",
             "./items/whichInstrument",
             "./items/choir",

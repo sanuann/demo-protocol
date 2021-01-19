@@ -6,7 +6,7 @@
     "description": "schema for which instrument of participant",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "Which one(s)",
+    "question": "If other, which one(s)",
     "ui": {
         "inputType": "text"
     },
