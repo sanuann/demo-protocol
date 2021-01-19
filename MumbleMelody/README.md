@@ -1,5 +1,5 @@
 <section style="height: 30vw; min-height: 15rem;
-      background: linear-gradient(#268762, #15ac7f)">
+      background: linear-gradient(#0303d6, #848eff)">
         <div style="
           height: 30vw;
           min-height: 15rem;
