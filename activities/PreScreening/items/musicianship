@@ -15,7 +15,7 @@
     },
 
     "responseOptions": {
-        "multipleChoice": true,
+        "multipleChoice": false,
         "choices": [
             {
                 "value": 1,
