@@ -30,10 +30,15 @@
                 {"isAbout": "mm:Raw/Raw_schema",
                 "variableName": "raw",
                 "isVis": true
+                },
+            {"isAbout": "mm:Raw/week1_items/raw_question1",
+                "variableName": "raw_question1",
+                "isVis": true
                 }
         ],
         "order": [
             "mm:Harmonize/Harmonize_schema",
+            "mm:Raw/week1_items/raw_question1",
             "mm:Reverb/Reverb",
             "mm:Whisper/Whisper_schema",
             "mm:Raw/Raw_schema"
