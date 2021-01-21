@@ -31,13 +31,13 @@
                 "variableName": "raw",
                 "isVis": true
                 },
-            {"isAbout": "mm:Raw/week1_items/raw_question1",
-                "variableName": "raw_question1",
+            {"isAbout": "mm:PreScreening/items/age",
+                "variableName": "age",
                 "isVis": true
                 }
         ],
         "order": [
-            "mm:Raw/week1_items/raw_question1",
+            "mm:PreScreening/items/age",
             "mm:Reverb/Reverb",
             "mm:Whisper/Whisper_schema",
             "mm:Raw/Raw_schema"
