@@ -3,7 +3,7 @@
         <div style="
           height: 30vw;
           min-height: 15rem;
-          background-image: url(./mainlogooval2.svg);
+          background-image: url(https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/master/MumbleMelody/mainlogooval2.svg);
           background-position: center;
           background-size: contain;
           background-repeat: no-repeat">
@@ -21,7 +21,7 @@
 <section>
 <div class="image container">
   <div class="image">
-    <img style="margin-bottom: -6px" src="./triobig.svg" alt="about"/>
+    <img style="margin-bottom: -6px" src="https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/master/MumbleMelody/triobig.svg" alt="about"/>
   </div>
   <div class="text" style="padding-top: 1rem">
     <h3>Background Information</h3>
@@ -34,7 +34,7 @@
 <section>
 <div class="image container">
   <div class="image">
-    <img style="transform: scale(0.7); padding-top: 1.5rem" src="./sld2.svg" alt="tell-story"/>
+    <img style="transform: scale(0.7); padding-top: 1.5rem" src="https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/master/MumbleMelody/sld2.svg" alt="tell-story"/>
   </div>
   <div class="text">
     <h3>About our Study</h3>
@@ -47,7 +47,7 @@
 <section>
 <div class="image container">
   <div class="image">
-    <img style="padding-bottom: 1rem" src="./appphone4.svg"/>
+    <img style="padding-bottom: 1rem" src="https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/master/MumbleMelody/appphone4.svg"/>
   </div>
   <div class="text">
     <h3>Ready to Get Started ?</h3>
