@@ -34,10 +34,15 @@
             {"isAbout": "mm:PreScreening/items/age",
                 "variableName": "age",
                 "isVis": true
+                },
+            {"isAbout": "rl:PHQ-9/PHQ9_schema",
+                "variableName": "PHQ9_schema",
+                "isVis": true
                 }
         ],
         "order": [
             "mm:PreScreening/items/age",
+            "rl:PHQ-9/PHQ9_schema",
             "mm:Reverb/Reverb",
             "mm:Whisper/Whisper_schema",
             "mm:Raw/Raw_schema"
