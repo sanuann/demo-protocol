@@ -7,8 +7,7 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "What was something a teacher did that had a strong impact on you ?"?
-"},
+        "en": "What was something a teacher did that had a strong impact on you ?"},
     "ui": {
         "inputType": "audioRecord"
     },

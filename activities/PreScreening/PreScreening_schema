@@ -12,6 +12,7 @@
     "version": "0.0.1",
     "ui": {
         "addProperties": [
+
                 {"isAbout": "./items/age",
                 "variableName": "age",
                 "isVis": true
@@ -32,6 +33,8 @@
                 "variableName": "household",
                 "isVis": true
                 },
+
+
                 {"isAbout": "./items/handeness1",
                 "variableName": "handeness1",
                 "isVis": true
@@ -52,6 +55,8 @@
                 "variableName": "stutter",
                 "isVis": true
                 },
+
+
                 {"isAbout": "./items/startStuttering",
                 "variableName": "startStuttering",
                 "isVis": true
@@ -91,17 +96,51 @@
                 {"isAbout": "./items/increaseFluency",
                 "variableName": "increaseFluency",
                 "isVis": true
-                }
+                },
+
+                {"isAbout": "./items/singOrPlay",
+                "variableName": "singOrPlay",
+                "isVis": true
+                },
+                {"isAbout": "./items/musicianship",
+                "variableName": "musicianship",
+                "isVis": "singOrPlay === 1"
+                },
+                {"isAbout": "./items/instrument",
+                "variableName": "instrument",
+                "isVis": "singOrPlay === 1"
+                },
+                {"isAbout": "./items/whichInstrument",
+                "variableName": "whichInstrument",
+                "isVis": "instrument === 7"
+                },
+                {"isAbout": "./items/choir",
+                "variableName": "choir",
+                "isVis": true
+                },  
+                {"isAbout": "./items/listenMusic",
+                "variableName": "listenMusic",
+                "isVis": true
+                },
+                {"isAbout": "./items/singPublic",
+                "variableName": "singPublic",
+                "isVis": true
+                },    
+                {"isAbout": "./items/singPrivate",
+                "variableName": "singPrivate",
+                "isVis": true
+                },
+                {"isAbout": "./items/singInternally",
+                "variableName": "singInternally",
+                "isVis": true
+                },    
+                {"isAbout": "./items/talkInternally",
+                "variableName": "talkInternally",
+                "isVis": true
+                }   
+
         ],
         "order": [
-            "./items/speechTherapy1",
-            "./items/speechTherapy2",
-            "./items/monologue",
-            "./items/dreams",
-            "./items/anticipation",
-            "./items/changeWords",
-            "./items/relatives",
-            "./items/increaseFluency",
             "./items/age",
             "./items/gender",
             "./items/language",
@@ -113,7 +152,25 @@
             "./items/diagnosed2",
             "./items/stutter",
             "./items/startStuttering",
-            "./items/fluency"
+            "./items/fluency",
+            "./items/speechTherapy1",
+            "./items/speechTherapy2",
+            "./items/monologue",
+            "./items/dreams",
+            "./items/anticipation",
+            "./items/changeWords",
+            "./items/relatives",
+            "./items/increaseFluency",
+            "./items/singOrPlay",
+            "./items/musicianship",
+            "./items/instrument",
+            "./items/whichInstrument",
+            "./items/choir",
+            "./items/listenMusic",
+            "./items/singPublic",
+            "./items/singPrivate",
+            "./items/singInternally",
+            "./items/talkInternally"
         ],
         "shuffle": false
     }

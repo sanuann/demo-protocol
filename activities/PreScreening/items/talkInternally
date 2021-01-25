@@ -1,13 +1,13 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "dreams",
-    "prefLabel": "Dreams",
-    "description": "schema for dreams of participant",
+    "@id": "talk internally",
+    "prefLabel": "Talk Internally",
+    "description": "schema for talk internally of participant",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "Do you stutter in your dreams ?",
+        "en": "How often do you experience verbalized mental thoughts ? (rehearsing a talk in your head, preparing an important conversation, etc.)",
         "es": ""
     },
     "ui": {
@@ -19,23 +19,27 @@
         "choices": [
             {
                 "value": 1,
-                "name": "Never"
+                "name": "All the Time"
             },
             {
                 "value": 2,
-                "name": "Rarely"
+                "name": "A Few Times an Hour"
             },
             {
                 "value": 3,
-                "name": "Occasionally"
+                "name": "A Few Times a Day"
             },
             {
                 "value": 4,
-                "name": "Often"
+                "name": "Every Day"
             },
             {
                 "value": 5,
-                "name": "Always"
+                "name": "Less than Once a Day"
+            },
+            {
+                "value": 6,
+                "name": "Never"
             }
         ]
     }

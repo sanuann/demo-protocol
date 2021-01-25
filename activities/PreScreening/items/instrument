@@ -1,13 +1,13 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "dreams",
-    "prefLabel": "Dreams",
-    "description": "schema for dreams of participant",
+    "@id": "instrument",
+    "prefLabel": "Instrument",
+    "description": "schema for instrument of participant",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "Do you stutter in your dreams ?",
+        "en": "If you play an instrument, which one(s) ?",
         "es": ""
     },
     "ui": {
@@ -15,27 +15,35 @@
     },
 
     "responseOptions": {
-        "multipleChoice": false,
+        "multipleChoice": true,
         "choices": [
             {
                 "value": 1,
-                "name": "Never"
+                "name": "Sing"
             },
             {
                 "value": 2,
-                "name": "Rarely"
+                "name": "Piano"
             },
             {
                 "value": 3,
-                "name": "Occasionally"
+                "name": "Recorder"
             },
             {
                 "value": 4,
-                "name": "Often"
+                "name": "Guitar (classic, electric, folk, bass, etc.)"
             },
             {
                 "value": 5,
-                "name": "Always"
+                "name": "Violin"
+            },
+            {
+                "value": 6,
+                "name": "Percussions/Drums"
+            },
+            {
+                "value": 7,
+                "name": "Other"
             }
         ]
     }
