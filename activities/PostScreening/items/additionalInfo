@@ -6,12 +6,12 @@
     "description": "schema for health condition information of participant",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "Any health condition?",
+    "question": "Additional information:",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
         "valueType": "xsd:string",
-        "maxLength": 50
+        "maxLength": 500
     }
 }

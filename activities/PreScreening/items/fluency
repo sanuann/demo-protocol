@@ -13,6 +13,27 @@
     "responseOptions": {
         "valueType": "xsd:string",
         "multipleChoice": false,
-        "choices": "https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/master/activities/PreScreening/valueConstraints/fluency.json"
+        "choices": [
+            {
+                "value": 1,
+                "name": "Mild Stutter"
+            },
+            {
+                "value": 2,
+                "name": "Mild/Moderate Stutter"
+            },
+            {
+                "value": 3,
+                "name": "Moderate Stutter"
+            },
+            {
+                "value": 4,
+                "name": "Moderate/Severe Stutter"
+            },
+            {
+                "value": 5,
+                "name": "Severe Stutter"
+            }
+        ]
     }
 }

@@ -10,7 +10,7 @@
     "description": "",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "preamble": "As a first step, we will ask you a series a questions.",
+    "preamble": "As a first step, we will ask you a series of questions.",
     "ui": {
         "addProperties": [
 
@@ -50,7 +50,7 @@
                 },
                 {"isAbout": "./items/diagnosed2",
                 "variableName": "diagnosed2",
-                "isVis": true
+                "isVis": "diagnosed1 === 9"
                 },
                 {"isAbout": "./items/stutter",
                 "variableName": "stutter",

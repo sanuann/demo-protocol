@@ -13,6 +13,43 @@
     "responseOptions": {
         "valueType": "xsd:string",
         "multipleChoice": true,
-        "choices": "https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/master/activities/PreScreening/valueConstraints/diagnosed.json"
+        "choices": [
+            {
+                "value": 1,
+                "name": "Alzheimer’s disease"
+            },
+            {
+                "value": 2,
+                "name": "Stroke"
+            },
+            {
+                "value": 3,
+                "name": "Anxiety"
+            },
+            {
+                "value": 4,
+                "name": "Depression"
+            },
+            {
+                "value": 5,
+                "name": "Heart attack"
+            },
+            {
+                "value": 6,
+                "name": "Concussion"
+            },
+            {
+                "value": 7,
+                "name": "Migraines/Chronic headaches"
+            },
+            {
+                "value": 8,
+                "name": "Seizures/epilepsy"
+            },
+            {
+                "value": 9,
+                "name": "Other"
+            }
+        ]
     }
 }

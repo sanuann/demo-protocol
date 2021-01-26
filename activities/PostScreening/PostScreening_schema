@@ -5,20 +5,21 @@
         }
     ],
     "@type": "reproschema:Activity",
-    "@id": "Screening_schema",
-    "prefLabel": "Pre-Testing Questionnaire",
-    "description": "example of nested activity",
+    "@id": "PostScreening_schema",
+    "prefLabel": "Post-Testing Questionnaire",
+    "description": "Post-Testing Questionnaire",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
+    "preamble": "Please input below any additional thoughts you'd like to add about your overall experience so far or specifically for this week.",
     "ui": {
         "addProperties": [
-                {"isAbout": "./items/healthCondition",
-                "variableName": "health_condition",
+                {"isAbout": "./items/additionalInfo",
+                "variableName": "additionalInfo",
                 "isVis": true
                 }
         ],
         "order": [
-            "./items/healthCondition"
+            "./items/additionalInfo"
         ],
         "shuffle": false
     }
