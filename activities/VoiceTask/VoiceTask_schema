@@ -38,6 +38,10 @@
             {"isAbout": "rl:PHQ-9/PHQ9_schema",
                 "variableName": "PHQ9_schema",
                 "isVis": true
+                },
+            {"isAbout": "rl:demographics_and_background_information_v1/items/education_level",
+                "variableName": "education_level",
+                "isVis": true
                 }
         ],
         "order": [
