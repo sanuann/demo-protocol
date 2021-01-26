@@ -7,7 +7,8 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "preamble": "Please read the following passage out loud.",
-    "question": "So, overcoming its fear of being shot, it actually did come out from the forest and began to threaten the sheep. Racing down to the village, the boy of course cried out even louder than before. Unfortunately, as all the villagers were convinced that he was trying to fool them a third time, they told him, \"Go away and don’t bother us again.\" And so the wolf had a feast.",
+    "question": {
+        "en": "So, overcoming its fear of being shot, it actually did come out from the forest and began to threaten the sheep. Racing down to the village, the boy of course cried out even louder than before. Unfortunately, as all the villagers were convinced that he was trying to fool them a third time, they told him, \"Go away and don’t bother us again.\" And so the wolf had a feast."},
     "ui": {
         "inputType": "audioPassageRecord"
     },
