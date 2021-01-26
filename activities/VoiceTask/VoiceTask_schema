@@ -43,11 +43,11 @@
         "order": [
             "mm:PreScreening/items/age",
             "rl:PHQ-9/PHQ9_schema",
+            "rl:demographics_and_background_information_v1/items/education_level",
             "mm:Reverb/Reverb",
             "mm:Whisper/Whisper_schema",
             "mm:Raw/Raw_schema"
         ],
-        "inputType": "section",
         "shuffle": false
     }
 }
