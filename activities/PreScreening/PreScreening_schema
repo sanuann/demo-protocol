@@ -10,6 +10,7 @@
     "description": "",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
+    "preamble": "As a first step, we will ask you a series a questions.",
     "ui": {
         "addProperties": [
 
