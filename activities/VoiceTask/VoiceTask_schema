@@ -34,7 +34,7 @@
         ],
         "order": [
             "mm:Harmonize/Harmonize_schema",
-            "mm:Reverb/Reverb",
+            "mm:Reverb/Reverb_schema",
             "mm:Whisper/Whisper_schema",
             "mm:Raw/Raw_schema"
         ],
