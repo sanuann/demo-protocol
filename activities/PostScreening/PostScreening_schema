@@ -6,11 +6,11 @@
     ],
     "@type": "reproschema:Activity",
     "@id": "PostScreening_schema",
-    "prefLabel": "Post-Testing Questionnaire",
-    "description": "Post-Testing Questionnaire",
+    "prefLabel": "Post-Testing Interview",
+    "description": "Post-Testing Interview",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "preamble": "Please input below any additional thoughts you'd like to add about your overall experience so far or specifically for this week.",
+    "preamble": "In this last part, please answer the following questions about your experience in this study so far.",
     "ui": {
         "addProperties": [
                 {"isAbout": "./items/additionalInfo",

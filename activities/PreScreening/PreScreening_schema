@@ -10,7 +10,7 @@
     "description": "",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "preamble": "As a first step, we will ask you a series of questions.",
+    "preamble": "Part 1 - Pre-study questionnaire: please answer the following pre-study questionnaire about your demographics, stuttering history and musical background. Feel free to skip any question that you do not wish to answer.",
     "ui": {
         "addProperties": [
 
@@ -94,9 +94,13 @@
                 "variableName": "relatives",
                 "isVis": true
                 },
-                {"isAbout": "./items/increaseFluency",
-                "variableName": "increaseFluency",
+                {"isAbout": "./items/increaseFluency1",
+                "variableName": "increaseFluency1",
                 "isVis": true
+                },
+                {"isAbout": "./items/increaseFluency2",
+                "variableName": "increaseFluency2",
+                "isVis": "increaseFluency1 === 8"
                 },
 
                 {"isAbout": "./items/singOrPlay",
@@ -106,14 +110,6 @@
                 {"isAbout": "./items/musicianship",
                 "variableName": "musicianship",
                 "isVis": "singOrPlay === 1"
-                },
-                {"isAbout": "./items/instrument",
-                "variableName": "instrument",
-                "isVis": "singOrPlay === 1"
-                },
-                {"isAbout": "./items/whichInstrument",
-                "variableName": "whichInstrument",
-                "isVis": "instrument === 7"
                 },
                 {"isAbout": "./items/choir",
                 "variableName": "choir",
@@ -161,11 +157,10 @@
             "./items/anticipation",
             "./items/changeWords",
             "./items/relatives",
-            "./items/increaseFluency",
+            "./items/increaseFluency1",
+            "./items/increaseFluency2",
             "./items/singOrPlay",
             "./items/musicianship",
-            "./items/instrument",
-            "./items/whichInstrument",
             "./items/choir",
             "./items/listenMusic",
             "./items/singPublic",

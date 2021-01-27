@@ -1,17 +1,17 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "additionalInformations",
-    "prefLabel": "Additional Informations",
-    "description": "schema for additional information of participant",
+    "@id": "increaseFluency2",
+    "prefLabel": "Increase Fluency 2",
+    "description": "schema for increase fluency 2 of participant",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "Please input below any additional information you'd like to share about your experience so far (Optional):",
+    "question": "Please describe ?",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
         "valueType": "xsd:string",
-        "maxLength": 500
+        "maxLength": 100
     }
 }

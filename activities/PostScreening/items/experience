@@ -1,13 +1,13 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "question1_raw_week5",
-    "prefLabel": "raw Question 1 week 5",
-    "description": "Week 5, Question 1, Raw",
+    "@id": "post_experience",
+    "prefLabel": "Post Interview Experience Question",
+    "description": "Post Interview Experience Question",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "Where is the worst place you have been stuck for a long time ?"},
+        "en": "How did you find the experience during the session & over the past week using the app ?"},
     "ui": {
         "inputType": "audioRecord"
     },

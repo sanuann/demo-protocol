@@ -53,6 +53,10 @@
             {
                 "value": 10,
                 "name": "Doctorate degree"
+            },
+            {
+                "value": 11,
+                "name": "Prefer not to answer"
             }
         ]
     }

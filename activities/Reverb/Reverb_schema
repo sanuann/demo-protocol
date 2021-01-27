@@ -12,7 +12,7 @@
     "description": "Reverb Voice Tasks",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "preamble": "On your phone, open the MumbleMelody App and please select the mode \"REVERB\". Then proceed to the various tasks in this section.",
+    "preamble": "On the Mumble Melody app on your phone, select the REVERB mode, set the volume of you phone at max and make sure that you can hear the mode properly when you talk. Then proceed to the various tasks in this section.",
     "ui": {
         "addProperties": [
 

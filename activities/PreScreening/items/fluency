@@ -6,7 +6,7 @@
     "description": "schema for fluency of participant",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "How would you rate your fluency today ?",
+    "question": "How would you rate your fluency ?",
     "ui": {
         "inputType": "selectLanguage"
     },
@@ -16,22 +16,26 @@
         "choices": [
             {
                 "value": 1,
-                "name": "Mild Stutter"
+                "name": "Fully Fluent"
             },
             {
                 "value": 2,
-                "name": "Mild/Moderate Stutter"
+                "name": "Mild Stutter"
             },
             {
                 "value": 3,
-                "name": "Moderate Stutter"
+                "name": "Mild/Moderate Stutter"
             },
             {
                 "value": 4,
-                "name": "Moderate/Severe Stutter"
+                "name": "Moderate Stutter"
             },
             {
                 "value": 5,
+                "name": "Moderate/Severe Stutter"
+            },
+            {
+                "value": 6,
                 "name": "Severe Stutter"
             }
         ]

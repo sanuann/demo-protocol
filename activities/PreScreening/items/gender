@@ -28,6 +28,10 @@
             {
                 "value": 3,
                 "name": "Other"
+            },
+            {
+                "value": 4,
+                "name": "Prefer not to answer"
             }
         ]
     }

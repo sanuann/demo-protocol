@@ -36,6 +36,10 @@
             {
                 "value": 5,
                 "name": "Separated"
+            },
+            {
+                "value": 6,
+                "name": "Prefer not to answer"
             }
         ]
     }

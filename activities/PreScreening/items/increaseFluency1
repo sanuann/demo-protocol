@@ -1,14 +1,14 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "diagnosed1",
-    "prefLabel": "Diagnosed",
-    "description": "schema for native diagnosed of participant",
+    "@id": "increaseFluency",
+    "prefLabel": "Increase Fluency",
+    "description": "schema for increase fluency of participant",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "Have you ever had or been diagnosed to have (select all that apply):",
+    "question": "Do you use any other techniques to increase fluency ? (i.e. choice of word, slowing down, whispering, preparation, pull-out, preparatory set etc.)",
     "ui": {
-        "inputType": "selectLanguage"
+        "inputType": "text"
     },
     "responseOptions": {
         "valueType": "xsd:string",
@@ -16,48 +16,36 @@
         "choices": [
             {
                 "value": 1,
-                "name": "Alzheimer’s disease"
+                "name": "Wording Switching"
             },
             {
                 "value": 2,
-                "name": "Stroke"
+                "name": "Slowing Down"
             },
             {
                 "value": 3,
-                "name": "Anxiety"
+                "name": "Easy Onset"
             },
             {
                 "value": 4,
-                "name": "Depression"
+                "name": "Whispering"
             },
             {
                 "value": 5,
-                "name": "Heart attack"
+                "name": "Preparation"
             },
             {
                 "value": 6,
-                "name": "Concussion"
+                "name": "Pull-Out"
             },
             {
                 "value": 7,
-                "name": "Migraines/Chronic headaches"
+                "name": "Preparatory set"
             },
             {
                 "value": 8,
-                "name": "Seizures/epilepsy"
-            },
-            {
-                "value": 9,
                 "name": "Other"
             },
-            {
-                "value": 10,
-                "name": "None"
-            },
-            {
-                "value": 11,
-                "name": "Prefer not to answer"
-            }
         ]
     }
 }
