@@ -8,7 +8,7 @@
     "version": "0.0.1",
     "question": "Do you use any other techniques to increase fluency ? (i.e. choice of word, slowing down, whispering, preparation, pull-out, preparatory set etc.)",
     "ui": {
-        "inputType": "text"
+        "inputType": "selectLanguage"
     },
     "responseOptions": {
         "valueType": "xsd:string",

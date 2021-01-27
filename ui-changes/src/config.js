@@ -4,5 +4,6 @@ module.exports = {
   banner: 'Study on Stuttering',
   startButton: 'Join',
   assetsPublicPath: '/MumbleMelody_Long/',
-  backendServer: 'https://sig.mit.edu/vb'
+  backendServer: 'https://sig.mit.edu/vb',
+  checkMediaPermission: true
 };
