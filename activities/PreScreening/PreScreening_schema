@@ -1,7 +1,7 @@
 {
     "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
         {
-            "rl": "https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/master/activities/"
+            "rl": "https://raw.githubusercontent.com/sensein/MumbleMelody_Long/master/activities/"
         }
     ],
     "@type": "reproschema:Activity",
