@@ -7,7 +7,6 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "preamble": "Please sing the same passage to the tune of Happy Birthday.",
-    "question": "",
     "ui": {
         "inputType": "audioPassageRecord"
     },
