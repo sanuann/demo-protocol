@@ -6,13 +6,38 @@
     "description": "schema for fluency of participant",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "How would you rate your fluency today ?",
+    "question": "How would you rate your fluency ?",
     "ui": {
         "inputType": "selectLanguage"
     },
     "responseOptions": {
         "valueType": "xsd:string",
         "multipleChoice": false,
-        "choices": "https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/master/activities/PreScreening/valueConstraints/fluency.json"
+        "choices": [
+            {
+                "value": 1,
+                "name": "Fully Fluent"
+            },
+            {
+                "value": 2,
+                "name": "Mild Stutter"
+            },
+            {
+                "value": 3,
+                "name": "Mild/Moderate Stutter"
+            },
+            {
+                "value": 4,
+                "name": "Moderate Stutter"
+            },
+            {
+                "value": 5,
+                "name": "Moderate/Severe Stutter"
+            },
+            {
+                "value": 6,
+                "name": "Severe Stutter"
+            }
+        ]
     }
 }

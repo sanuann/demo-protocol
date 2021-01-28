@@ -1,17 +1,17 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "healthCondition",
-    "prefLabel": "Health Condition",
-    "description": "schema for health condition information of participant",
+    "@id": "additionalInformations",
+    "prefLabel": "Additional Informations",
+    "description": "schema for additional information of participant",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "Any health condition?",
+    "question": "Please input below any additional information you'd like to share about your experience so far (Optional):",
     "ui": {
         "inputType": "text"
     },
     "responseOptions": {
         "valueType": "xsd:string",
-        "maxLength": 50
+        "maxLength": 500
     }
 }

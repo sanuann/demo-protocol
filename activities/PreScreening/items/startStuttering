@@ -13,6 +13,35 @@
     "responseOptions": {
         "valueType": "xsd:string",
         "multipleChoice": false,
-        "choices": "https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/master/activities/PreScreening/valueConstraints/stuttering.json"
+        "choices": [
+            {
+                "value": 1,
+                "name": "Before 2"
+            },
+            {
+                "value": 2,
+                "name": "2 to 5"
+            },
+            {
+                "value": 3,
+                "name": "5 to 7"
+            },
+            {
+                "value": 4,
+                "name": "7 to 10"
+            },
+            {
+                "value": 5,
+                "name": "10 to 18"
+            },
+            {
+                "value": 6,
+                "name": "After 18"
+            },
+            {
+                "value": 7,
+                "name": "I don't know"
+            }
+        ]
     }
 }

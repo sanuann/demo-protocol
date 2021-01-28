@@ -1,7 +1,8 @@
 {
     "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
         {
-               
+
+            "voice_tasks": "https://raw.githubusercontent.com/ReproNim/reproschema-library/a996c81dd546051f192db03b03da6d8ee8ff6a25/activities/VoiceTask/items/",
             "mm": "https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/master/activities/",
             "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"       
         }
@@ -16,6 +17,9 @@
     "ui": {
         "addProperties": [
 
+                {"isAbout": "voice_tasks:audio_check",
+                "variableName": "audio_check"
+                },
                 {"isAbout": "mm:Baseline/week1_items/base_freespeech1",
                 "variableName": "week1_f1",
                 "isVis": "week === 1"
@@ -136,6 +140,7 @@
 
         ],
         "order": [
+            "voice_tasks:audio_check",
             "mm:Baseline/week1_items/base_freespeech1",
             "mm:Baseline/week1_items/base_question1",
             "mm:Baseline/week1_items/base_question2",

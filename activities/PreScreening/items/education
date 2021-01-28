@@ -13,6 +13,51 @@
     "responseOptions": {
         "valueType": "xsd:string",
         "multipleChoice": false,
-        "choices": "https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/master/activities/PreScreening/valueConstraints/education.json"
+        "choices": [
+            {
+                "value": 1,
+                "name": "No schooling completed"
+            },
+            {
+                "value": 2,
+                "name": "Nursery school to 8th grade"
+            },
+            {
+                "value": 3,
+                "name": "High school (diploma)"
+            },
+            {
+                "value": 4,
+                "name": "High school (no diploma)"
+            },
+            {
+                "value": 5,
+                "name": "College credits (no degree)"
+            },
+            {
+                "value": 6,
+                "name": "Trade, Technical, Vocational training"
+            },
+            {
+                "value": 7,
+                "name": "Associate degree"
+            },
+            {
+                "value": 8,
+                "name": "Bachelor's degree"
+            },
+            {
+                "value": 9,
+                "name": "Master's degree"
+            },
+            {
+                "value": 10,
+                "name": "Doctorate degree"
+            },
+            {
+                "value": 11,
+                "name": "Prefer not to answer"
+            }
+        ]
     }
 }

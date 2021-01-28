@@ -1,12 +1,12 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "handeness2",
-    "prefLabel": "Ambidextrous",
-    "description": "schema for ambidextrous of participant",
+    "@id": "increaseFluency2",
+    "prefLabel": "Increase Fluency 2",
+    "description": "schema for increase fluency 2 of participant",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "If ambidextrous, which activities do you use each side for?",
+    "question": "Please describe ?",
     "ui": {
         "inputType": "text"
     },

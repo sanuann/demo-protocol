@@ -1,13 +1,13 @@
 {
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
     "@type": "reproschema:Field",
-    "@id": "question1_raw_week5",
-    "prefLabel": "raw Question 1 week 5",
-    "description": "Week 5, Question 1, Raw",
+    "@id": "post_favorite",
+    "prefLabel": "Post Interview Favorite Mode Question",
+    "description": "Post Interview Favorite Mode Question",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "Where is the worst place you have been stuck for a long time ?"},
+        "en": "Which is your favorite mode and why, which one is your least favorite mode and why ?"},
     "ui": {
         "inputType": "audioRecord"
     },
