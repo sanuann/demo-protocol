@@ -50,8 +50,7 @@
             "../activities/Baseline/Baseline_schema",
             "../activities/VoiceTask/VoiceTask_schema",
             "../activities/PostScreening/PostScreening_schema",
-            "rl:ThankYou/ThankYou_schema",
-            "https://raw.githubusercontent.com/sanuann/demo-protocol/master/activities/Screening/Screening_schema"
+            "rl:ThankYou/ThankYou_schema"
         ],
         "shuffle": false,
         "allow": ["reproschema:AutoAdvance",
