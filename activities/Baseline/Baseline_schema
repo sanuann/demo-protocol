@@ -175,6 +175,6 @@
             "mm:Baseline/week5_items/base_reading3"
         ],
         "inputType": "section",
-        "shuffle": true
+        "shuffle": false
     }
 }

@@ -10,15 +10,25 @@
     "description": "Post-Testing Interview",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "preamble": "In this last part, please answer the following questions about your experience in this study so far.",
+    "preamble": "In this last part, please answer the few following questions about your overall experience in this study so far.",
     "ui": {
         "addProperties": [
-                {"isAbout": "./items/additionalInfo",
-                "variableName": "additionalInfo",
-                "isVis": true
-                }
+            {"isAbout": "./items/experience",
+            "variableName": "experience",
+            "isVis": true
+            },
+            {"isAbout": "./items/favorite",
+            "variableName": "favorite",
+            "isVis": true
+            },
+            {"isAbout": "./items/additionalInfo",
+            "variableName": "additionalInfo",
+            "isVis": true
+            }
         ],
         "order": [
+            "./items/experience",
+            "./items/favorite",
             "./items/additionalInfo"
         ],
         "shuffle": false
