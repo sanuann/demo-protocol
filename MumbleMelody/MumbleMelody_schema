@@ -20,7 +20,7 @@
     "image": "mit_voice_pilot_applet_image.svg?sanitize=true",
     "ui": {
         "addProperties": [
-	    {"isAbout": "../activities/PreScreening/PreScreening_schema",
+	        {"isAbout": "../activities/PreScreening/PreScreening_schema",
             "variableName": "PreScreening_schema",
             "prefLabel": {"en": "Pre-Testing Questionnaire"}
             },
@@ -39,14 +39,19 @@
             {"isAbout": "rl:ThankYou/ThankYou_schema",
             "variableName": "ThankYou_schema",
             "prefLabel": {"en": "ThankYou"}
+            },
+            {"isAbout": "https://raw.githubusercontent.com/sanuann/demo-protocol/master/activities/Screening/Screening_schema",
+            "variableName": "Screening_schema",
+            "prefLabel": {"en": "Screening"}
             }
         ],
-        "order": [
+    "order": [
             "../activities/PreScreening/PreScreening_schema",
             "../activities/Baseline/Baseline_schema",
             "../activities/VoiceTask/VoiceTask_schema",
             "../activities/PostScreening/PostScreening_schema",
-            "rl:ThankYou/ThankYou_schema"
+            "rl:ThankYou/ThankYou_schema",
+            "https://raw.githubusercontent.com/sanuann/demo-protocol/master/activities/Screening/Screening_schema"
         ],
         "shuffle": false,
         "allow": ["reproschema:AutoAdvance",
