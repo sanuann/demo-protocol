@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "preamble": "Please read the following poem out loud.",
-    "question": "On a Tuesday I flew\nOut from Boston to you.\nI was ready for summer,\nAnd the sky was true blue.",
+    "question": "On a Tuesday I flew\n Out from Boston to you.\n I was ready for summer,\n And the sky was true blue.",
     "ui": {
         "inputType": "audioPassageRecord"
     },
