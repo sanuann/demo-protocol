@@ -38,7 +38,7 @@
   </div>
   <div class="text">
     <h3>About our Study</h3>
-    <p>Throughout this study you will be asked to use an iPhone app every day for 15 minutes while talking. No voice data will be collected during those daily sessions. We only ask you to log when you are using the app and on which setting. Once a week, you will have a 30 minutes testing session using both the app and a platform on your computer browser. During those sessions, your voice will be recorded for later analysis of your fluency.
+    <p>Throughout this study you will be asked to use an iPhone app every day for 15 minutes while talking. No voice data will be collected during those daily sessions. Once a week, you will have a 30 minutes testing session using both the app and a platform on your computer browser. During those sessions, your voice will be recorded for later analysis of your fluency.
     </p>
   </div>
 </div>
