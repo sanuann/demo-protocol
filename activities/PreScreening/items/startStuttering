@@ -12,7 +12,7 @@
     },
     "responseOptions": {
         "valueType": "xsd:string",
-        "multipleChoice": false,
+        "multipleChoice": true,
         "choices": [
             {
                 "value": 1,
