@@ -13,7 +13,7 @@
     "description": "Baseline Voice Tasks",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "preamble": "BASELINE ASSESSMENT The first stage of the experiment will consists in capturing your voice as is, without any type of feedback mechanism added to the process.",
+    "preamble": "BASELINE ASSESSMENT: The first stage of the experiment consists in capturing your voice as is, without any type of feedback mechanism added to the process.",
     "ui": {
         "addProperties": [
 
