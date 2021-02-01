@@ -8,7 +8,7 @@
     "version": "0.0.1",
     "question": "Education",
     "ui": {
-        "inputType": "checkbox"
+        "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:string",

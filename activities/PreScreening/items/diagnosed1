@@ -8,7 +8,7 @@
     "version": "0.0.1",
     "question": "Have you ever had or been diagnosed to have (select all that apply):",
     "ui": {
-        "inputType": "checkbox"
+        "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:string",

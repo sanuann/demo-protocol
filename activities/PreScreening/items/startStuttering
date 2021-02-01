@@ -8,7 +8,7 @@
     "version": "0.0.1",
     "question": "To the best of your knowledge, when did you start stuttering ?",
     "ui": {
-        "inputType": "checkbox"
+        "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:string",
