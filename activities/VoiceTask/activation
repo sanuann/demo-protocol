@@ -6,7 +6,7 @@
     "description": "schema for activation of participant",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "In this section, you will have to us the Mumble Melody app on your iOS device. Please make sure your device is charged at least 50\% and that it is connected to a pair of wired headphones. Open the app and, if prompted, enter your user ID:",
+    "question": "In this section, you will have to us the Mumble Melody app on your iOS device. Please make sure your device is charged at least 50 percent and that it is connected to a pair of wired headphones. Open the app and, if prompted, enter your user ID:",
     "ui": {
         "inputType": "static",
         "readonlyValue": true
