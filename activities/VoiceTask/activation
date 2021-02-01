@@ -6,12 +6,13 @@
     "description": "schema for activation of participant",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "Please enter the UID displayed below as part of your App login credentials:",
+    "question": "You can now open the Mumble Melody App on your phone. Please enter the UID displayed below onto the App login pop-up window:",
     "ui": {
-        "inputType": "text"
+        "inputType": "static",
+        "readonlyValue": true
     },
     "responseOptions": {
         "valueType": "xsd:string",
-        "maxLength": 300
+        "maxLength": 15
     }
 }
