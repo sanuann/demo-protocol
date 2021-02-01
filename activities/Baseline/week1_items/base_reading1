@@ -6,8 +6,8 @@
     "description": "Week 1, Reading 1, Baseline",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "preamble": "Please read the following poem out loud.",
-    "question": "On a Tuesday I flew<br>Out from Boston to you.<br>I was ready for summer,<br>And the sky was true blue.",
+    "preamble": "Please read the following passage out loud.",
+    "question": "You wished to know all about my grandfather. Well, he is nearly 93 years old; he dresses himself in an ancient black frock coat, usually minus several buttons; yet he still thinks as swiftly as ever. A long, flowing beard clings to his chin, giving those who observe him a pronounced feeling of the utmost respect. When he speaks, his voice is just a bit cracked and quivers a trifle.",
     "ui": {
         "inputType": "audioPassageRecord"
     },

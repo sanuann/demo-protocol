@@ -48,6 +48,14 @@
                 "variableName": "week1_r2",
                 "isVis": "week === 1"
                 },
+                {"isAbout": "mm:Baseline/week1_items/base_reading3",
+                "variableName": "week1_r3",
+                "isVis": "week === 1"
+                },
+                {"isAbout": "mm:Baseline/week1_items/base_reading4",
+                "variableName": "week1_r4",
+                "isVis": "week === 1"
+                },
 
 
                 {"isAbout": "mm:Baseline/week2_items/base_freespeech1",
@@ -148,6 +156,8 @@
             "mm:Baseline/week1_items/base_question4",
             "mm:Baseline/week1_items/base_reading1",
             "mm:Baseline/week1_items/base_reading2",
+            "mm:Baseline/week1_items/base_reading3",
+            "mm:Baseline/week1_items/base_reading4",
 
             "mm:Baseline/week2_items/base_freespeech1",
             "mm:Baseline/week2_items/base_question1",
