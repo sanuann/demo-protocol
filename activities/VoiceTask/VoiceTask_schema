@@ -16,7 +16,7 @@
     "ui": {
         "addProperties": [
 
-                {"isAbout": "./activation",
+                {"isAbout": "mm:VoiceTask/activation",
                 "variableName": "activation",
                 "isVis": true
                 },
@@ -39,6 +39,7 @@
                 }
         ],
         "order": [
+            "mm:VoiceTask/activation",
             "mm:Harmonize/Harmonize_schema",
             "mm:Reverb/Reverb_schema",
             "mm:Whisper/Whisper_schema",
