@@ -13,7 +13,7 @@
     "description": "Baseline Voice Tasks",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "preamble": "BASELINE ASSESSMENT:  in this section we ask you to record yourself speaking out loud. Please speak as if you had someone in front of you listening. Please speak for a full 2 minutes (120 sec), the full length of the countdown. Feel free to talk about tangentially related topic if you do not feel inspired by the question. The purpose of the question is to assess your fluency during a two minutes sequence",
+    "preamble": "BASELINE ASSESSMENT:<br>In this section we ask you to record yourself speaking out loud. Please speak as if you had someone in front of you listening. Please speak for a full 2 minutes (120 sec), the full length of the countdown. Feel free to talk about tangentially related topic if you do not feel inspired by the question. The purpose of the question is to assess your fluency during a two minutes sequence",
     "ui": {
         "addProperties": [
 
