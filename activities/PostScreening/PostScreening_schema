@@ -10,7 +10,7 @@
     "description": "Post-Testing Interview",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "preamble": "POST-TESTING INTERVIEW:<br>In this last part, please answer the few following questions about your overall experience in this study so far. You do not have to reach the countdown limit for these questions.",
+    "preamble": "POST-TESTING INTERVIEW:<br>For this last section, please answer the two following questions about your overall experience in this study so far. Feel free to also tell us about other insights, thoughts or suggestion you may have.",
     "ui": {
         "addProperties": [
             {"isAbout": "./items/experience",
