@@ -34,7 +34,7 @@
             },
             {"isAbout": "../activities/PostScreening/PostScreening_schema",
             "variableName": "PostScreening_schema",
-            "prefLabel": {"en": "Post-Testing Questionnaire"}
+            "prefLabel": {"en": "Post-Testing Interview"}
             },
             {"isAbout": "rl:ThankYou/ThankYou_schema",
             "variableName": "ThankYou_schema",
