@@ -6,7 +6,7 @@
     "description": "schema for activation of participant",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "Axtivation",
+    "question": "Please enter the UID displayed below as part of your App login credentials:",
     "ui": {
         "inputType": "text"
     },
