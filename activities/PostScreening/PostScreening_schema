@@ -10,7 +10,7 @@
     "description": "Post-Testing Interview",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "preamble": "In this last part, please answer the few following questions about your overall experience in this study so far.",
+    "preamble": "WEEKLY INTERVIEW:<br>In this last part, please answer the few following questions about your overall experience in this study so far. You do not have to reach the countdown limit for these questions.",
     "ui": {
         "addProperties": [
             {"isAbout": "./items/experience",

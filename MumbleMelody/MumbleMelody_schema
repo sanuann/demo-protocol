@@ -26,11 +26,11 @@
             },
             {"isAbout": "../activities/Baseline/Baseline_schema",
             "variableName": "Baseline_schema",
-            "prefLabel": {"en": "Baseline Voice Task"}
+            "prefLabel": {"en": "Baseline Voice Testing"}
             },
             {"isAbout": "../activities/VoiceTask/VoiceTask_schema",
             "variableName": "VoiceTask_schema",
-            "prefLabel": {"en": "Voice"}
+            "prefLabel": {"en": "Mode Testing (with App)"}
             },
             {"isAbout": "../activities/PostScreening/PostScreening_schema",
             "variableName": "PostScreening_schema",
@@ -38,7 +38,7 @@
             },
             {"isAbout": "rl:ThankYou/ThankYou_schema",
             "variableName": "ThankYou_schema",
-            "prefLabel": {"en": "ThankYou"}
+            "prefLabel": {"en": "Thank You"}
             }
         ],
     "order": [

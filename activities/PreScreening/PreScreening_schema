@@ -10,7 +10,7 @@
     "description": "",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "preamble": "PRE-STUDY QUESTIONNAIRE: please answer the following pre-study questionnaire about your demographics, stuttering history and musical background. Feel free to skip any question that you do not wish to answer.",
+    "preamble": "PRE-STUDY QUESTIONNAIRE:<br>please answer the following pre-study questionnaire about your demographics, stuttering history and musical background. Feel free to skip any question that you do not wish to answer.",
     "ui": {
         "addProperties": [
 

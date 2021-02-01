@@ -7,6 +7,7 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "preamble": "Please sing the same passage to the tune of Happy Birthday.",
+    "question": "On a Tuesday I flew<br>Out from Boston to you.<br>I was ready for summer,<br>And the sky was true blue.",
     "ui": {
         "inputType": "audioPassageRecord"
     },

@@ -6,7 +6,7 @@
     "description": "schema for diagnosed other of participant",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "If other, please describe?",
+    "question": "If other, please describe ?",
     "ui": {
         "inputType": "text"
     },
