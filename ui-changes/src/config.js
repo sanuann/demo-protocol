@@ -4,5 +4,7 @@ module.exports = {
   startButton: 'Join',
   assetsPublicPath: '/MumbleMelody_Long/',
   backendServer: 'https://sig.mit.edu/vb',
-  checkMediaPermission: true
+  checkMediaPermission: true,
+  showHelp: true,
+  contact: 'mumblemelody@mit.edu'
 };
