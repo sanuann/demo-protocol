@@ -6,5 +6,6 @@ module.exports = {
   backendServer: 'https://sig.mit.edu/vb',
   checkMediaPermission: true,
   showHelp: true,
-  contact: 'mumblemelody@mit.edu'
+  contact: 'mumblemelody@mit.edu',
+  banner: 'Please do not hit the refresh button at any point in the survey. Doing so would result in losing your current progress.'
 };
