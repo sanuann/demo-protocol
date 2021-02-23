@@ -7,5 +7,5 @@ module.exports = {
   checkMediaPermission: true,
   showHelp: true,
   contact: 'mumblemelody@mit.edu',
-  banner: 'Please do not hit the refresh button at any point in the survey. Doing so would result in losing your current progress.'
+  banner: 'Do not refresh the page - all data would be lost'
 };
