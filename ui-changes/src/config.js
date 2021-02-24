@@ -7,5 +7,8 @@ module.exports = {
   checkMediaPermission: true,
   showHelp: true,
   contact: 'mumblemelody@mit.edu',
-  banner: 'Do not refresh the page - all data would be lost'
+  emailSubject: 'Help with Mumble Melody study',
+  banner: 'Do not refresh the page - all data would be lost',
+  dropboxLink: 'https://www.dropbox.com/request/KnfdziEjey8iGUPeocd3',
+  downloadAndSubmit: true
 };
