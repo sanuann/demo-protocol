@@ -22,7 +22,8 @@
         "addProperties": [
 	        {"isAbout": "../activities/PreScreening/PreScreening_schema",
             "variableName": "PreScreening_schema",
-            "prefLabel": {"en": "Pre-Testing Questionnaire"}
+            "prefLabel": {"en": "Pre-Testing Questionnaire"},
+	    "isVis": "week === 1"
             },
             {"isAbout": "../activities/Baseline/Baseline_schema",
             "variableName": "Baseline_schema",
