@@ -8,7 +8,7 @@
     "version": "0.0.1",
     "question": "How would you rate your fluency ?",
     "ui": {
-        "inputType": "selectLanguage"
+        "inputType": "radio"
     },
     "responseOptions": {
         "valueType": "xsd:string",

@@ -6,7 +6,7 @@
     "description": "schema for increase fluency 2 of participant",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "question": "Please describe ?",
+    "question": "If other, please describe ?",
     "ui": {
         "inputType": "text"
     },

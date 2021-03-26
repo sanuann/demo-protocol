@@ -6,8 +6,8 @@
     "description": "Week 1, Reading 2, Baseline",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "preamble": "Please sing the same passage to the tune of Happy Birthday.",
-    "question": "",
+    "preamble": "Please read the following passage out loud.",
+    "question": "Twice each day he plays skilfully and with zest upon our small organ. Except in the winter when the ooze or snow or ice prevents, he slowly takes a short walk in the open air each day. We have often urged him to walk more and smoke less, but he always answers, \"Banana oil!\" Grandfather likes to be modern in his language.",
     "ui": {
         "inputType": "audioPassageRecord"
     },

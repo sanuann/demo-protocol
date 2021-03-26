@@ -3,7 +3,7 @@
         <div style="
           height: 30vw;
           min-height: 15rem;
-          background-image: url(https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/master/MumbleMelody/mainlogooval2.svg);
+          background-image: url(https://raw.githubusercontent.com/sensein/MumbleMelody_Long/master/MumbleMelody/mainlogooval2.svg);
           background-position: center;
           background-size: contain;
           background-repeat: no-repeat">
@@ -21,7 +21,7 @@
 <section>
 <div class="image container">
   <div class="image">
-    <img style="margin-bottom: -6px" src="https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/master/MumbleMelody/triobig.svg" alt="about"/>
+    <img style="margin-bottom: -6px" src="https://raw.githubusercontent.com/sensein/MumbleMelody_Long/master/MumbleMelody/triobig.svg" alt="about"/>
   </div>
   <div class="text" style="padding-top: 1rem">
     <h3>Background Information</h3>
@@ -34,11 +34,11 @@
 <section>
 <div class="image container">
   <div class="image">
-    <img style="transform: scale(0.7); padding-top: 1.5rem" src="https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/master/MumbleMelody/sld2.svg" alt="tell-story"/>
+    <img style="transform: scale(0.7); padding-top: 1.5rem" src="https://raw.githubusercontent.com/sensein/MumbleMelody_Long/master/MumbleMelody/sld2.svg" alt="tell-story"/>
   </div>
   <div class="text">
     <h3>About our Study</h3>
-    <p>Throughout this study you will be asked to use an iPhone app every day for 15 minutes while talking. No voice data will be collected during those daily sessions. We only ask you to log when you are using the app and on which setting. Once a week, you will have a 30 minutes testing session using both the app and a platform on your computer browser. During those sessions, your voice will be recorded for later analysis of your fluency.
+    <p>Throughout this study you will be asked to use an iPhone app every day for 15 minutes while talking. No voice data will be collected during those daily sessions. Once a week, you will have a 30 minutes testing session using both the app and a platform on your computer browser. During those sessions, your voice will be recorded for later analysis of your fluency.
     </p>
   </div>
 </div>
@@ -47,7 +47,7 @@
 <section>
 <div class="image container">
   <div class="image">
-    <img style="padding-bottom: 1rem" src="https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/master/MumbleMelody/appphone4.svg"/>
+    <img style="padding-bottom: 1rem" src="https://raw.githubusercontent.com/sensein/MumbleMelody_Long/master/MumbleMelody/appphone4.svg"/>
   </div>
   <div class="text">
     <h3>Ready to Get Started ?</h3>

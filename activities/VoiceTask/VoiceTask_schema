@@ -2,7 +2,7 @@
     "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc2/contexts/generic",
         {
                
-            "mm": "https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/master/activities/",
+            "mm": "https://raw.githubusercontent.com/sensein/MumbleMelody_Long/master/activities/",
             "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"       
         }
     ],
@@ -12,9 +12,15 @@
     "description": "Voice tasks",
     "schemaVersion": "1.0.0-rc2",
     "version": "0.0.1",
-    "preamble": "For each task, you should hit the record button before speaking and then stop once you are done speaking. You may hit play to hear what was recorded.",
+    "preamble": "MODE TESTING:<br>In this section we ask you to record yourself speaking out loud. Please speak as if you had someone in front of you listening. You should hit the RECORD button before speaking and then STOP once you are done speaking then hit continue.  <br><br>For each OPEN QUESTION, you will see a countdown of 2 minutes (120s) and we ask you to speak for the entire time of the countdown. Feel free to talk about tangentially related topic if you do not feel inspired by the question. The purpose of the question is to assess your fluency during a two minutes sequence.<br>For each READING TASK, you will see a countdown of 30 seconds and we ask you to read the entire passage before the end of the countdown. We will then analyze the data and evaluate how your fluency changes with every mode, so feel free to stutter freely. <br><br>",
     "ui": {
         "addProperties": [
+
+                {"isAbout": "mm:VoiceTask/activation",
+                "variableName": "activation",
+                "isVis": true
+                },
+
                 {"isAbout": "mm:Raw/Raw_schema",
                 "variableName": "raw",
                 "isVis": true
@@ -33,11 +39,12 @@
                 }
         ],
         "order": [
+            "mm:VoiceTask/activation",
             "mm:Harmonize/Harmonize_schema",
             "mm:Reverb/Reverb_schema",
             "mm:Whisper/Whisper_schema",
             "mm:Raw/Raw_schema"
         ],
-        "shuffle": true
+        "shuffle": false
     }   
 }

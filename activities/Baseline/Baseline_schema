@@ -1,7 +1,9 @@
 {
     "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
         {
+
             "voice_tasks": "https://raw.githubusercontent.com/ReproNim/reproschema-library/a996c81dd546051f192db03b03da6d8ee8ff6a25/activities/VoiceTask/items/",
+            "mm": "https://raw.githubusercontent.com/sensein/MumbleMelody_Long/master/activities/",
             "rl": "https://raw.githubusercontent.com/ReproNim/reproschema-library/master/activities/"       
         }
     ],
@@ -11,166 +13,177 @@
     "description": "Baseline Voice Tasks",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "preamble": "The first stage of the experiment will consists in capturing your voice as is, without any type of feedback mechanism added to the process.",
+    "preamble": "BASELINE ASSESSMENT:<br>In this section we ask you to record yourself speaking out loud. Please speak as if you had someone in front of you listening. You should hit the RECORD button before speaking and then STOP once you are done speaking then hit continue.  <br><br>For each OPEN QUESTION, you will see a countdown of 2 minutes (120s) and we ask you to speak for the entire time of the countdown. Feel free to talk about tangentially related topic if you do not feel inspired by the question. The purpose of the question is to assess your fluency during a two minutes sequence.<br><br>For each READING TASKS, you will see a countdown of 30 seconds and we ask you to read the entire passage before the end of the countdown.<br><br>We will then analyze the data and evaluate how your fluency changes with every mode, so feel free to stutter freely.",
     "ui": {
         "addProperties": [
 
                 {"isAbout": "voice_tasks:audio_check",
                 "variableName": "audio_check"
                 },
-                {"isAbout": "week1_items/base_freespeech1",
+                {"isAbout": "mm:Baseline/week1_items/base_freespeech1",
                 "variableName": "week1_f1",
                 "isVis": "week === 1"
                 },
-                {"isAbout": "week1_items/base_question1",
+                {"isAbout": "mm:Baseline/week1_items/base_question1",
                 "variableName": "week1_q1",
                 "isVis": "week === 1"
                 },
-                {"isAbout": "week1_items/base_question2",
+                {"isAbout": "mm:Baseline/week1_items/base_question2",
                 "variableName": "week1_q2",
                 "isVis": "week === 1"
                 },
-                {"isAbout": "week1_items/base_question3",
+                {"isAbout": "mm:Baseline/week1_items/base_question3",
                 "variableName": "week1_q3",
                 "isVis": "week === 1"
                 },
-                {"isAbout": "week1_items/base_question4",
+                {"isAbout": "mm:Baseline/week1_items/base_question4",
                 "variableName": "week1_q4",
                 "isVis": "week === 1"
                 },
-                {"isAbout": "week1_items/base_reading1",
+                {"isAbout": "mm:Baseline/week1_items/base_reading1",
                 "variableName": "week1_r1",
                 "isVis": "week === 1"
                 },
-                {"isAbout": "week1_items/base_reading2",
+                {"isAbout": "mm:Baseline/week1_items/base_reading2",
                 "variableName": "week1_r2",
+                "isVis": "week === 1"
+                },
+                {"isAbout": "mm:Baseline/week1_items/base_reading3",
+                "variableName": "week1_r3",
+                "isVis": "week === 1"
+                },
+                {"isAbout": "mm:Baseline/week1_items/base_reading4",
+                "variableName": "week1_r4",
                 "isVis": "week === 1"
                 },
 
 
-                {"isAbout": "week2_items/base_freespeech1",
+                {"isAbout": "mm:Baseline/week2_items/base_freespeech1",
                 "variableName": "week2_f1",
                 "isVis": "week === 2"
                 },
-                {"isAbout": "week2_items/base_question1",
+                {"isAbout": "mm:Baseline/week2_items/base_question1",
                 "variableName": "week2_q1",
                 "isVis": "week === 2"
                 },
-                {"isAbout": "week2_items/base_question2",
+                {"isAbout": "mm:Baseline/week2_items/base_question2",
                 "variableName": "week2_q2",
                 "isVis": "week === 2"
                 },
-                {"isAbout": "week2_items/base_reading1",
+                {"isAbout": "mm:Baseline/week2_items/base_reading1",
                 "variableName": "week2_r1",
                 "isVis": "week === 2"
                 },
-                {"isAbout": "week2_items/base_reading2",
+                {"isAbout": "mm:Baseline/week2_items/base_reading2",
                 "variableName": "week2_r2",
                 "isVis": "week === 2"
                 },
 
-                {"isAbout": "week3_items/base_freespeech1",
+                {"isAbout": "mm:Baseline/week3_items/base_freespeech1",
                 "variableName": "week3_f1",
                 "isVis": "week === 3"
                 },
-                {"isAbout": "week3_items/base_question1",
+                {"isAbout": "mm:Baseline/week3_items/base_question1",
                 "variableName": "week3_q1",
                 "isVis": "week === 3"
                 },
-                {"isAbout": "week3_items/base_question2",
+                {"isAbout": "mm:Baseline/week3_items/base_question2",
                 "variableName": "week3_q2",
                 "isVis": "week === 3"
                 },
-                {"isAbout": "week3_items/base_reading1",
+                {"isAbout": "mm:Baseline/week3_items/base_reading1",
                 "variableName": "week3_r1",
                 "isVis": "week === 3"
                 },
 
-                {"isAbout": "week4_items/base_freespeech1",
+                {"isAbout": "mm:Baseline/week4_items/base_freespeech1",
                 "variableName": "week4_f1",
                 "isVis": "week === 4"
                 },
-                {"isAbout": "week4_items/base_question1",
+                {"isAbout": "mm:Baseline/week4_items/base_question1",
                 "variableName": "week4_q1",
                 "isVis": "week === 4"
                 },
-                {"isAbout": "week4_items/base_question2",
+                {"isAbout": "mm:Baseline/week4_items/base_question2",
                 "variableName": "week4_q2",
                 "isVis": "week === 4"
                 },
-                {"isAbout": "week4_items/base_reading1",
+                {"isAbout": "mm:Baseline/week4_items/base_reading1",
                 "variableName": "week4_r1",
                 "isVis": "week === 4"
                 },
-                {"isAbout": "week4_items/base_reading2",
+                {"isAbout": "mm:Baseline/week4_items/base_reading2",
                 "variableName": "week4_r2",
                 "isVis": "week === 4"
                 },
-                {"isAbout": "week4_items/base_reading3",
+                {"isAbout": "mm:Baseline/week4_items/base_reading3",
                 "variableName": "week4_r3",
                 "isVis": "week === 4"
                 },
 
-                {"isAbout": "week5_items/base_freespeech1",
+                {"isAbout": "mm:Baseline/week5_items/base_freespeech1",
                 "variableName": "week5_f1",
                 "isVis": "week === 5"
                 },
-                {"isAbout": "week5_items/base_question1",
+                {"isAbout": "mm:Baseline/week5_items/base_question1",
                 "variableName": "week5_q1",
                 "isVis": "week === 5"
                 },
-                {"isAbout": "week5_items/base_question2",
+                {"isAbout": "mm:Baseline/week5_items/base_question2",
                 "variableName": "week5_q2",
                 "isVis": "week === 5"
                 },
-                {"isAbout": "week5_items/base_reading1",
+                {"isAbout": "mm:Baseline/week5_items/base_reading1",
                 "variableName": "week5_r1",
                 "isVis": "week === 5"
                 },
-                {"isAbout": "week5_items/base_reading2",
+                {"isAbout": "mm:Baseline/week5_items/base_reading2",
                 "variableName": "week5_r2",
                 "isVis": "week === 5"
                 },
-                {"isAbout": "week5_items/base_reading3",
+                {"isAbout": "mm:Baseline/week5_items/base_reading3",
                 "variableName": "week5_r3",
                 "isVis": "week === 5"
                 }
 
         ],
         "order": [
-            "week1_items/base_freespeech1",
-            "week1_items/base_question1",
-            "week1_items/base_question2",
-            "week1_items/base_question3",
-            "week1_items/base_question4",
-            "week1_items/base_reading1",
-            "week1_items/base_reading2",
+            "voice_tasks:audio_check",
+            "mm:Baseline/week1_items/base_freespeech1",
+            "mm:Baseline/week1_items/base_question1",
+            "mm:Baseline/week1_items/base_question2",
+            "mm:Baseline/week1_items/base_question3",
+            "mm:Baseline/week1_items/base_question4",
+            "mm:Baseline/week1_items/base_reading1",
+            "mm:Baseline/week1_items/base_reading2",
+            "mm:Baseline/week1_items/base_reading3",
+            "mm:Baseline/week1_items/base_reading4",
 
-            "week2_items/base_freespeech1",
-            "week2_items/base_question1",
-            "week2_items/base_question2",
-            "week2_items/base_reading1",
-            "week2_items/base_reading2",
+            "mm:Baseline/week2_items/base_freespeech1",
+            "mm:Baseline/week2_items/base_question1",
+            "mm:Baseline/week2_items/base_question2",
+            "mm:Baseline/week2_items/base_reading1",
+            "mm:Baseline/week2_items/base_reading2",
 
-            "week3_items/base_freespeech1",
-            "week3_items/base_question1",
-            "week3_items/base_question2",
-            "week3_items/base_reading1",
+            "mm:Baseline/week3_items/base_freespeech1",
+            "mm:Baseline/week3_items/base_question1",
+            "mm:Baseline/week3_items/base_question2",
+            "mm:Baseline/week3_items/base_reading1",
 
-            "week4_items/base_freespeech1",
-            "week4_items/base_question1",
-            "week4_items/base_question2",
-            "week4_items/base_reading1",
-            "week4_items/base_reading2",
-            "week4_items/base_reading3",
+            "mm:Baseline/week4_items/base_freespeech1",
+            "mm:Baseline/week4_items/base_question1",
+            "mm:Baseline/week4_items/base_question2",
+            "mm:Baseline/week4_items/base_reading1",
+            "mm:Baseline/week4_items/base_reading2",
+            "mm:Baseline/week4_items/base_reading3",
 
-            "week5_items/base_freespeech1",
-            "week5_items/base_question1",
-            "week5_items/base_question2",
-            "week5_items/base_reading1",
-            "week5_items/base_reading2",
-            "week5_items/base_reading3"
+            "mm:Baseline/week5_items/base_freespeech1",
+            "mm:Baseline/week5_items/base_question1",
+            "mm:Baseline/week5_items/base_question2",
+            "mm:Baseline/week5_items/base_reading1",
+            "mm:Baseline/week5_items/base_reading2",
+            "mm:Baseline/week5_items/base_reading3"
         ],
-        "shuffle": true
+        "shuffle": false
     }
 }

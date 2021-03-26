@@ -22,27 +22,24 @@
         "addProperties": [
 	        {"isAbout": "../activities/PreScreening/PreScreening_schema",
             "variableName": "PreScreening_schema",
-            "prefLabel": {"en": "Pre-Testing Questionnaire"}
+            "prefLabel": {"en": "Pre-Testing Questionnaire"},
+	    "isVis": "week === 1"
             },
             {"isAbout": "../activities/Baseline/Baseline_schema",
             "variableName": "Baseline_schema",
-            "prefLabel": {"en": "Baseline Voice Task"}
+            "prefLabel": {"en": "Baseline Voice Testing"}
             },
             {"isAbout": "../activities/VoiceTask/VoiceTask_schema",
             "variableName": "VoiceTask_schema",
-            "prefLabel": {"en": "Voice"}
+            "prefLabel": {"en": "Mode Testing (with App)"}
             },
             {"isAbout": "../activities/PostScreening/PostScreening_schema",
             "variableName": "PostScreening_schema",
-            "prefLabel": {"en": "Post-Testing Questionnaire"}
+            "prefLabel": {"en": "Post-Testing Interview"}
             },
             {"isAbout": "rl:ThankYou/ThankYou_schema",
             "variableName": "ThankYou_schema",
-            "prefLabel": {"en": "ThankYou"}
-            },
-            {"isAbout": "https://raw.githubusercontent.com/sanuann/demo-protocol/master/activities/Screening/Screening_schema",
-            "variableName": "Screening_schema",
-            "prefLabel": {"en": "Screening"}
+            "prefLabel": {"en": "Thank You"}
             }
         ],
     "order": [
@@ -53,6 +50,8 @@
             "rl:ThankYou/ThankYou_schema"
         ],
         "shuffle": false,
-        "allow": ["reproschema:AutoAdvance"]
+        "allow": ["reproschema:AutoAdvance",
+                  "reproschema:AllowExport",
+                  "reproschema:DisableBack"]
     }
 }

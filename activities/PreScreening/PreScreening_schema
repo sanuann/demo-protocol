@@ -1,7 +1,7 @@
 {
     "@context": [ "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
         {
-            "rl": "https://raw.githubusercontent.com/rebklein/MumbleMelody_Long/master/activities/"
+            "rl": "https://raw.githubusercontent.com/sensein/MumbleMelody_Long/master/activities/"
         }
     ],
     "@type": "reproschema:Activity",
@@ -10,7 +10,7 @@
     "description": "",
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
-    "preamble": "Part 1 - Pre-study questionnaire: please answer the following pre-study questionnaire about your demographics, stuttering history and musical background. Feel free to skip any question that you do not wish to answer.",
+    "preamble": "PRE-STUDY QUESTIONNAIRE:<br>please answer the following pre-study questionnaire about your demographics, stuttering history and musical background. Feel free to skip any question that you do not wish to answer.",
     "ui": {
         "addProperties": [
 

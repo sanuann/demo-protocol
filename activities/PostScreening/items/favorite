@@ -7,7 +7,7 @@
     "schemaVersion": "1.0.0-rc1",
     "version": "0.0.1",
     "question": {
-        "en": "Which is your favorite mode and why, which one is your least favorite mode and why ?"},
+        "en": "Which is your favorite mode and why ? Which one is your least favorite mode and why ?"},
     "ui": {
         "inputType": "audioRecord"
     },

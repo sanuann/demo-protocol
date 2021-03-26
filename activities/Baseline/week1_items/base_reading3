@@ -1,0 +1,19 @@
+{
+    "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/1.0.0-rc1/contexts/generic",
+    "@type": "reproschema:Field",
+    "@id": "reading3_baseline_week1",
+    "prefLabel": "Reading 3 baseline week 1",
+    "description": "Week 1, Reading 3, Baseline",
+    "schemaVersion": "1.0.0-rc1",
+    "version": "0.0.1",
+    "preamble": "Please read the following poem out loud.",
+    "question": "On a Tuesday I flew<br>Out from Boston to you.<br>I was ready for summer,<br>And the sky was true blue.",
+    "ui": {
+        "inputType": "audioPassageRecord"
+    },
+    "responseOptions": {
+        "valueType": "schema:AudioObject",
+        "minValue": 0,
+        "maxValue": 30000
+    }
+}
