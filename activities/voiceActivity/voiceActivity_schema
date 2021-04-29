@@ -13,10 +13,6 @@
                 "variableName": "audio_check_item",
                 "isVis": true
                 },
-                {"isAbout": "items/audio_auto_record_item",
-                "variableName": "audio_auto_record_item",
-                "isVis": true
-                },
                 {"isAbout": "items/audio_passage_record_item",
                 "variableName": "audio_passage_record_item",
                 "isVis": true
@@ -33,7 +29,6 @@
         ],
         "order": [
             "items/audio_check_item",
-            "items/audio_auto_record_item",
             "items/audio_passage_record_item",
             "items/audio_image_record_item",
             "items/audio_number_record_item"
